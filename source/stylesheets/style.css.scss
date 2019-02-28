@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,300italic,400italic,500italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+
+$white: #ffffff;
+$navy-blue: #3d00f4;
+
+body {
+    position: relative;
+    font-family: "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: transparent;
+
+    &.affix {
+        background-color: $navy-blue;
+    }
+
+    .navbar-brand {
+        img {
+            width: 187.5px;
+
+            @media screen and (min-width: 576px) {
+                width: 250px;
+            }
+        }
+    }
+
+    .navbar-collapse {
+        background-color: $navy-blue;
+
+        .nav-link {
+            padding-left: 20px;
+        }
+
+        @media screen and (min-width: 992px) {
+            background-color: transparent;
+
+            .nav-link {
+                padding-left: inherit;
+            }
+        }
+    }
+}
+
+.main-display {
+    position: relative;
+    top: 80px;
+    box-shadow: 0 2px 50px 0 rgba(1, 40, 101, 0.8);
+    width: 100%;
+    height: 567px;
+    background-color: $navy-blue;
+    padding: 48px 48px 32px;
+
+    @media screen and (min-width: 576px) {
+        top: 106px;
+    }
+
+    @media screen and (min-width: 992px) {
+        width: 580px;
+    }
+
+    .main-display-title {
+        color: $white;
+        font-weight: 900;
+        font-size: 50px;
+        height: 50px;
+        line-height: 1;
+
+        @media screen and (min-width: 576px) {
+            font-size: 75px;
+            height: 75px;
+        }
+
+        @media screen and (min-width: 768px) {
+            font-size: 100px;
+            height: 100px;
+        }
+
+        &.alternate {
+            color: #4ecdc4;
+        }
+    }
+
+    .subtitle {
+        color: $white;
+        font-weight: 100;
+        font-size: 20px;
+        line-height: 2;
+    }
+}
+
+.container {
+    @media screen and (min-width: 576px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+nav {
+    &.navbar-dark {
+        .navbar-nav a.nav-link {
+            font-size: 15px;
+            font-weight: 100;
+            color: #ffffff;
+            
+
+            @media screen and (min-width: 1200px) {
+                letter-spacing: 1px;
+            }
+
+            &.active {
+                // TODO: implement highlighting menu items on scroll   
+            }
+        }
+    }
+        
+    button.btn-outline-primary {
+        color: #4ecdc4;
+        border-color: #4ecdc4;
+        border-width: 2px;
+        border-radius: 28.5px;
+        width: 123px;
+
+        &:hover {
+            color: $navy-blue;
+            background-color: #4ecdc4;
+        }
+    }
+}
+
+// TODO: revisit it
+.jumbotron-fluid .container {
+    background-image: url("../images/bg-photo.jpg");
+    background-size: cover;
+    height: 648px;
+    position: relative;
+}

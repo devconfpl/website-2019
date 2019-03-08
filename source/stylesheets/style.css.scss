@@ -1,8 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,300italic,400italic,500italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,400,500,300,300italic,400italic,500italic&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
 
 $white: #ffffff;
 $navy-blue: #3d00f4;
+$light-blue: #4ecdc4;
 
 body {
     position: relative;
@@ -43,6 +44,12 @@ header {
     }
 }
 
+.container-fluid  {
+    @media screen and (min-width: 1200px) {
+        width: 1280px;
+    }
+}
+
 .main-display {
     position: relative;
     top: 80px;
@@ -51,6 +58,9 @@ header {
     height: 567px;
     background-color: $navy-blue;
     padding: 48px 48px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     @media screen and (min-width: 576px) {
         top: 106px;
@@ -78,19 +88,99 @@ header {
         }
 
         &.alternate {
-            color: #4ecdc4;
+            color: $light-blue;
         }
     }
 
     .subtitle {
         color: $white;
-        font-weight: 100;
+        font-weight: 200;
         font-size: 20px;
-        line-height: 2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        @media screen and (min-width: 576px) {
+            margin: 0;
+            line-height: 2.5;
+        }
+    }
+
+    .important-info {
+        color: $white;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+
+        @media screen and (min-width: 576px) {
+            font-size: 17px;
+        }
+
+        .fas {
+            width: 17px;
+            color: $light-blue;
+            text-align: center;
+            margin-right: 5px;
+        }
+
+        > div {
+            line-height: 2;
+        }
+    }
+
+    button.btn-primary {
+        color: $navy-blue;
+        border-radius: 28.5px;
+        background-color: $light-blue;
+        border: 0;
+        font-weight: 500;
+        width: 207px;
+        height: 45px;
+        font-size: 20px;
+        align-self: center;
+
+        @media screen and (min-width: 576px) {
+            align-self: flex-start;
+        }
+
+        &:hover, &:focus, &:visited, &:checked,
+        &:not(:disabled):not(.disabled):active {
+            color: $navy-blue;
+            background-color: $light-blue;
+            border-color: $light-blue;
+        }
+    }
+
+    .social-links {
+        align-self: center;
+        color: $white;
+        font-size: 25px;
+
+        @media screen and (min-width: 576px) {
+            align-self: flex-end;
+        }
+
+        ul, li {
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            margin-left: 16px;
+        }
+
+        a {
+            color: $white;
+        }
     }
 }
 
-.container {
+.container-fluid {
     @media screen and (min-width: 576px) {
         padding-left: 30px;
         padding-right: 30px;
@@ -107,7 +197,7 @@ nav {
         .navbar-nav a.nav-link {
             font-size: 15px;
             font-weight: 100;
-            color: #ffffff;
+            color: $white;
             
 
             @media screen and (min-width: 1200px) {
@@ -121,23 +211,27 @@ nav {
     }
         
     button.btn-outline-primary {
-        color: #4ecdc4;
-        border-color: #4ecdc4;
+        color: $light-blue;
+        border-color: $light-blue;
         border-width: 2px;
         border-radius: 28.5px;
         width: 123px;
 
-        &:hover {
+        &:hover, &:focus, &:visited, &:checked,
+        &:not(:disabled):not(.disabled):active {
             color: $navy-blue;
-            background-color: #4ecdc4;
+            background-color: $light-blue;
+            border-color: $light-blue;
         }
     }
 }
 
 // TODO: revisit it
-.jumbotron-fluid .container {
+.jumbotron-fluid .container-fluid {
     background-image: url("../images/bg-photo.jpg");
     background-size: cover;
     height: 648px;
     position: relative;
+    background-position: bottom;
 }
+

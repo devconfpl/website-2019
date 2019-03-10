@@ -19,6 +19,12 @@
 
     <script>
       // Below is for fixed header when page is scrolled 30 pixels down
+      $(function() {
+        if ($(".navbar").offset().top > 30) {
+          $("header").addClass("affix");
+        }
+      });
+
       $(window).scroll(function () {
         if ($(".navbar").offset().top > 30) {
           $("header").addClass("affix");

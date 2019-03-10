@@ -50,6 +50,11 @@ p {
     color: $gray;
     line-height: 1.6;
     font-weight: 300;
+
+    &:last-child {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
 }
 
 header {
@@ -86,7 +91,36 @@ header {
     }
 }
 
+button.btn-primary {
+    color: $white;
+    border-radius: 28.5px;
+    background-color: $light-blue;
+    border: 0;
+    font-weight: 500;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 40px;
+    min-width: 207px;
+
+    &:hover, &:focus, &:visited, &:checked,
+    &:not(:disabled):not(.disabled):active {
+        color: $white;
+        background-color: $light-blue;
+        border-color: $light-blue;
+    }
+}
+
 .container-fluid  {
+    @media screen and (min-width: 576px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     @media screen and (min-width: 1200px) {
         width: 1280px;
     }
@@ -172,13 +206,6 @@ header {
 
     button.btn-primary {
         color: $navy-blue;
-        border-radius: 28.5px;
-        background-color: $light-blue;
-        border: 0;
-        font-weight: 500;
-        width: 207px;
-        height: 45px;
-        font-size: 20px;
         align-self: center;
 
         @media screen and (min-width: 576px) {
@@ -188,8 +215,6 @@ header {
         &:hover, &:focus, &:visited, &:checked,
         &:not(:disabled):not(.disabled):active {
             color: $navy-blue;
-            background-color: $light-blue;
-            border-color: $light-blue;
         }
     }
 
@@ -220,18 +245,6 @@ header {
         a, i, em {
             color: $white;
         }
-    }
-}
-
-.container-fluid {
-    @media screen and (min-width: 576px) {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    @media screen and (min-width: 768px) {
-        padding-left: 50px;
-        padding-right: 50px;
     }
 }
 
@@ -271,42 +284,47 @@ nav {
 }
 
 // TODO: revisit it
-.jumbotron-fluid .container-fluid {
-    background-image: url("../images/bg-photo.jpg");
-    background-size: cover;
-    height: 648px;
-    position: relative;
-    background-position: bottom;
+.jumbotron-fluid 
+    .container-fluid {
+        background-image: url("../images/bg-photo.jpg");
+        background-size: cover;
+        height: 648px;
+        position: relative;
+        background-position: bottom;
 }
 
-#about .container-fluid {
-    background-image: none;
-    background-repeat: no-repeat;
-    background-clip: padding-box;
-    background-size: 480px;
-
-    @media screen and (min-width: 992px) {
-        background-image: url("../images/lines.png");   
+section {
+    > .container-fluid {
+        padding-top: 60px;
     }
 
-    @media 
-        screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), 
-        screen and (min-width: 992px) and (min-resolution: 192dpi) {
-        background-image: url("../images/lines@2x.png");
+    .section-header {
+        h3 {
+            padding-bottom: 0;
+        }
     }
+}
 
-    > .row {
-        padding-top: 50px;
+#about {
+    .container-fluid {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-clip: padding-box;
+        background-size: 480px;
 
-        @media screen and (min-width: 576px) {
-            padding-top: 90px;
+        @media screen and (min-width: 992px) {
+            background-image: url("../images/lines.png");   
+        }
+
+        @media 
+            screen and (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), 
+            screen and (min-width: 992px) and (min-resolution: 192dpi) {
+            background-image: url("../images/lines@2x.png");
         }
     }
 }
 
 #counters {
-    margin-top: 20px;
-
     .container-fluid {
         padding-left: 0;
         padding-right: 0;

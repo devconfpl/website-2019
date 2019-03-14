@@ -5,10 +5,13 @@ $white: #ffffff;
 $navy-blue: #3d00f4;
 $light-blue: #4ecdc4;
 $gray: #575757;
+$light-gray: #c9cfdd;
 
 body {
     position: relative;
     font-family: "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h3 {
@@ -128,6 +131,10 @@ button.btn-primary {
     @media screen and (min-width: 1200px) {
         width: 1280px;
     }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
 }
 
 .main-display {
@@ -178,11 +185,9 @@ button.btn-primary {
         font-weight: 200;
         font-size: 20px;
         margin-top: 10px;
-        // margin-bottom: 10px;
 
         @media screen and (min-width: 576px) {
             margin: 0;
-            // line-height: 2.5;
         }
     }
 
@@ -254,6 +259,10 @@ button.btn-primary {
         li {
             display: inline-block;
             margin-left: 16px;
+
+            &:first-child {
+                margin-left: 0;
+            }
         }
 
         a, i, em {
@@ -387,6 +396,158 @@ section {
                 line-height: 1;
                 text-align: center;
             }
+        }
+    }
+}
+
+#tickets {
+    .card-deck {
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: 576px) {
+            align-items: inherit;
+        }
+    }
+
+    .card {
+        margin-bottom: 30px;
+        min-width: 290px;
+        max-width: 290px;
+
+        @media screen and (min-width: 576px) {
+            min-width: 220px;
+            max-width: 220px;
+        }
+
+        @media screen and (min-width: 768px) {
+            min-width: 300px;
+            max-width: 300px;
+        }
+
+        @media screen and (min-width: 992px) {
+            min-width: 200px;
+            max-width: 200px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            min-width: 270px;
+            max-width: 270px;
+        }
+
+        &.wide {
+            max-width: 610px;
+            flex-grow: 2;
+
+            @media screen and (min-width: 576px) {
+                max-width: 470px;
+            }
+
+            @media screen and (min-width: 768px) {
+                max-width: 630px;
+            }
+
+            @media screen and (min-width: 992px) {
+                max-width: 430px;
+            }
+
+            @media screen and (min-width: 1200px) {
+                max-width: 570px;
+            }
+        }
+
+        &.special {
+            .card-header {
+                background-color: $light-blue;
+            }
+
+            .stretched-link {
+                color: $light-blue;
+            }
+        }
+
+        &.inactive {
+            .card-header {
+                background-color: $light-gray;
+            }
+        }
+
+        .card-header {
+            color: $white;
+            background-color: $navy-blue;
+            max-height: 112.6px;
+            border-bottom: 0;
+
+            h5 {
+                font-size: 20px;
+                font-weight: 900;
+            }
+
+            h6 {
+                font-size: 48px;
+                font-weight: 900;
+
+                &::after {
+                    content: 'pln*';
+                    font-size: 18px;
+                    margin-left: 5px;
+                }
+            }
+
+            p {
+                color: $white;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: left;
+                margin-bottom: .2rem;
+            }
+        }
+
+        .card-body {
+            font-size: 14px;
+            font-weight: 400;
+            padding-bottom: 0;
+
+            &.empty {
+                padding: 0;
+            }
+
+            a.external-link {
+                z-index: 10;
+                position: relative;
+                font-weight: 400;
+                color: $navy-blue;
+            }
+
+            ul {
+                padding: 0;
+                margin: 0;
+                text-align: left;
+
+                li {
+                    list-style: none;
+                    line-height: 2;
+                }
+            }
+
+            p.alt-text {
+                text-align: left;
+                font-size: 10px;
+                font-weight: 400;
+            }
+        }
+
+        .card-footer {
+            color: $gray;
+            background-color: $white;
+            border-top: 0;
+        }
+
+        .stretched-link {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 900;
+            color: $navy-blue;
         }
     }
 }

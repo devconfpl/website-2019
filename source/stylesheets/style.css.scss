@@ -277,7 +277,6 @@ nav {
             font-size: 15px;
             font-weight: 100;
             color: $white;
-            
 
             @media screen and (min-width: 1200px) {
                 letter-spacing: 1px;
@@ -318,7 +317,7 @@ nav {
 
 section {
     > .container-fluid {
-        padding-top: 60px;
+        margin-top: 60px;
     }
 
     .section-header {
@@ -348,11 +347,6 @@ section {
 }
 
 #counters {
-    .container-fluid {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .counters-photo {
         background-image: url("../images/counters-photo.png");
         background-size: cover;
@@ -548,6 +542,52 @@ section {
             font-size: 18px;
             font-weight: 900;
             color: $navy-blue;
+        }
+    }
+}
+
+#newsletter {
+    .container-fluid {
+        background-color: $navy-blue;
+        color: $white;
+
+        .newsletter-description {
+            h2 {
+                font-size: 32px;
+                font-weight: 900;
+            }
+
+            p {
+                color: $white;
+                font-size: 14px;
+                font-weight: 400;
+
+                @media screen and (min-width: 576px) {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .input-group {
+            max-width: 400px;
+
+            @media screen and (min-width: 768px) {
+                max-width: 100%;
+            }
+        }
+
+        input[type="text"] {
+            border-top-left-radius: 26px;
+            border-bottom-left-radius: 26px;
+        }
+
+        .btn-secondary {
+            background-color: $light-blue;
+            border-top-right-radius: 26px;
+            border-bottom-right-radius: 26px;
+            border: 0;
+            font-size: 20px;
+            font-weight: 900;
         }
     }
 }

@@ -591,3 +591,58 @@ section {
         }
     }
 }
+
+#previousEvents {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+
+        @media screen and (min-width: 576px) {
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+        }
+
+        @media screen and (min-width: 768px) {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+        }
+
+
+        @media screen and (min-width: 992px) {
+            -webkit-column-count: 4;
+            -moz-column-count: 4;
+            column-count: 4;
+        }
+    }
+}
+
+#location {
+    #map {
+        height: 565px;
+    }
+
+    .info-box {
+        position: absolute;
+        background-color: $white;
+
+        top: 35%;
+        width: 100%;
+
+        @media screen and (min-width: 576px) {
+            top: 10%;
+            left: 10%;
+            width: initial;
+        }
+
+        p {
+            font-size: 14px;
+
+            @media screen and (min-width: 576px) {
+                font-size: 17px;
+            }
+        }
+    }
+}

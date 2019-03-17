@@ -404,7 +404,7 @@ section {
 
         &.wide {
             max-width: 610px;
-            flex-grow: 2;
+            flex-grow: 1;
 
             @media screen and (min-width: 576px) {
                 max-width: 470px;
@@ -549,7 +549,7 @@ section {
             }
         }
 
-        input[type="text"] {
+        input[type="text"], input[type="email"] {
             border-top-left-radius: 26px;
             border-bottom-left-radius: 26px;
         }

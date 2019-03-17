@@ -99,13 +99,14 @@ header {
     }
 }
 
-button.btn-primary {
+button.btn-primary, a.btn-primary {
     color: $white;
     border-radius: 28.5px;
     background-color: $light-blue;
     border: 0;
     font-weight: 500;
     height: 45px;
+    line-height: 45px;
     font-size: 20px;
     padding: 0 30px;
     min-width: 207px;
@@ -114,7 +115,7 @@ button.btn-primary {
         padding: 0 40px;
     }
 
-    &:hover, &:focus, &:visited, &:checked,
+    &:hover, &:focus, &:checked,
     &:not(:disabled):not(.disabled):active {
         color: $white;
         background-color: $light-blue;
@@ -187,7 +188,7 @@ button.btn-primary {
 
     .subtitle {
         color: $white;
-        font-weight: 200;
+        font-weight: 300;
         font-size: 20px;
         margin-top: 10px;
 
@@ -228,7 +229,7 @@ button.btn-primary {
         }
     }
 
-    button.btn-primary {
+    button.btn-primary, a.btn-primary {
         color: $navy-blue;
         align-self: center;
 
@@ -236,7 +237,7 @@ button.btn-primary {
             align-self: flex-start;
         }
 
-        &:hover, &:focus, &:visited, &:checked,
+        &:hover, &:focus, &:checked,
         &:not(:disabled):not(.disabled):active {
             color: $navy-blue;
         }
@@ -260,7 +261,7 @@ nav {
         }
     }
         
-    button.btn-outline-primary {
+    button.btn-outline-primary, a.btn-outline-primary {
         color: $light-blue;
         background-color: $navy-blue;
         border-color: $light-blue;
@@ -268,7 +269,7 @@ nav {
         border-radius: 28.5px;
         width: 123px;
 
-        &:hover, &:focus, &:visited, &:checked,
+        &:hover, &:focus, &:checked,
         &:not(:disabled):not(.disabled):active {
             color: $navy-blue;
             background-color: $light-blue;

@@ -37,6 +37,24 @@ page '/*.txt', layout: false
 #   end
 # end
 
+helpers do
+  def twitter_link handle
+    'https://twitter.com/' + handle
+  end
+
+  def linkedin_link handle
+    'https://www.linkedin.com/in/' + handle + '/'
+  end
+
+  def js_link name, ver
+    '<script src="/javascripts/' + name + '.js?v=' + ver + '"></script>'
+  end
+
+  def css_link name, ver 
+    '<link href="/stylesheets/' + name + '.css?v=' + ver + '" rel="stylesheet">'
+  end
+end
+
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 

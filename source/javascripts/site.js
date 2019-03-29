@@ -18,6 +18,20 @@ $(function() {
     $(this).ekkoLightbox();
   });
 
+  $(document).on("click", ".nav-link, a.btn", function(event) {
+    event.preventDefault();
+
+    var page = $(this).attr("href"),
+        speed = 850,
+        offset = 100;
+
+    $("html, body").animate({
+      scrollTop: $(page).offset().top - offset
+    }, speed);
+
+    return false;
+  });
+
   var map;
   function initMap() {
     var mapOptions = {

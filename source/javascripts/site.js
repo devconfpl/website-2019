@@ -18,7 +18,7 @@ $(function() {
     $(this).ekkoLightbox();
   });
 
-  $(document).on("click", ".nav-link, a.btn", function(event) {
+  $(document).on("click", ".nav-link, a.btn-same-site", function(event) {
     event.preventDefault();
 
     var page = $(this).attr("href"),

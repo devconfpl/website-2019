@@ -6,14 +6,13 @@
                 Meet our professionals.
             </p>
             <p>
-                We are in the process of selecting the line-up for this year. Check it regularly for updates. 
+                More speakers to be revealed in coming weeks.
             </p>
         </div>
-        <div class="section-info text-center">
-            <p>
-                
-            </p>
-            <a class="btn btn-primary mx-auto" href="<%= data.general.cfp_link %>" role="button">Apply to Speak!</a>
+        <div class="card-deck">
+            <% data.speakers.items.sort_by(&:surname).each do |s| %>
+                <%= partial(:speaker, :locals => { :speaker => s }) %>
+            <% end %>
         </div>
     </div>
 </section>

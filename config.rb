@@ -27,15 +27,13 @@ page '/*.txt', layout: false
 #   },
 # )
 
+data.speakers.items.each do |s|
+  proxy "/speakers/#{s.tag}/index.html", "/speakers/template.html", :locals => { :speaker => s }, :ignore => true
+end
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
-
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
 
 helpers do
   def twitter_link handle

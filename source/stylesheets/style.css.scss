@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,400,500,300,300italic,400italic,500italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,400,500,300,300italic,400italic,500italic,900&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
 
 $white: #ffffff;
@@ -12,6 +12,20 @@ body {
     font-family: "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 900;
+    color: $gray;
+
+    @media screen and (min-width: 576px) {
+        font-size: 32px;
+    }
+
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+    }
 }
 
 h3 {
@@ -70,6 +84,10 @@ header {
 
     &.affix {
         background-color: $navy-blue;
+
+        &.light {
+            background-color: $white;
+        }
     }
 
     .navbar-brand {
@@ -82,9 +100,19 @@ header {
         }
     }
 
-    .navbar-collapse {
-        background-color: $navy-blue;
+    .navbar-dark {
+        .navbar-collapse {
+            background-color: $navy-blue;
+        }
+    }
 
+    .navbar-light {
+        .navbar-collapse {
+            background-color: $white;
+        }
+    }
+
+    .navbar-collapse {
         .nav-link {
             padding-left: 20px;
         }
@@ -245,19 +273,29 @@ button.btn-primary, a.btn-primary {
 }
 
 nav {
+    .navbar-nav a.nav-link {
+        font-size: 15px;
+        font-weight: 400;
+        color: $white;
+
+        @media screen and (min-width: 1200px) {
+            letter-spacing: 1px;
+        }
+
+        &.active {
+            // TODO: implement highlighting menu items on scroll   
+        }
+    }
+
     &.navbar-dark {
         .navbar-nav a.nav-link {
-            font-size: 15px;
-            font-weight: 300;
             color: $white;
+        }
+    }
 
-            @media screen and (min-width: 1200px) {
-                letter-spacing: 1px;
-            }
-
-            &.active {
-                // TODO: implement highlighting menu items on scroll   
-            }
+    &.navbar-light {
+        .navbar-nav a.nav-link {
+            color: $gray;
         }
     }
         
@@ -268,6 +306,7 @@ nav {
         border-width: 2px;
         border-radius: 28.5px;
         width: 123px;
+        font-weight: 500;
 
         &:hover, &:focus, &:checked,
         &:not(:disabled):not(.disabled):active {
@@ -275,6 +314,16 @@ nav {
             background-color: $light-blue;
             border-color: $light-blue;
         }
+    }
+
+    button.btn-primary, a.btn-primary {
+        width: 123px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        height: unset;
+        min-width: unset;
+        padding: .375rem .75rem;
     }
 }
 
@@ -286,6 +335,13 @@ nav {
         height: 648px;
         position: relative;
         background-position: bottom;
+}
+
+.card-deck {
+    .card {
+        box-shadow: 0 2px 20px 0 rgba(87, 87, 87, 0.1);
+        border: 0;
+    }
 }
 
 section {
@@ -367,6 +423,75 @@ section {
     }
 }
 
+#speakers {
+    .card-deck {
+        align-items: center;
+        justify-content: center;
+    
+        .card {
+            min-width: 180px;
+            max-width: 180px;
+            margin-bottom: 15px;
+
+            .picture-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 180px;
+                height: 180px;
+                background-color: $navy-blue;
+                opacity: 0.5;
+                mix-blend-mode: lighten;
+            }
+
+            .card-body {
+                padding: 5px 5px 0;
+                font-size: 15px;
+                font-weight: 900;
+                font-style: normal;
+                letter-spacing: 0;
+                color: $gray;
+            }
+
+            .card-footer {
+                border-top: 0;
+                background-color: $white;
+                padding: 3px 0 10px;
+                font-size: 18px;
+
+                ul, li {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        display: inline-block;
+                        margin-left: 11px;
+
+                        &:first-child {
+                            margin-left: 0;
+                        }
+
+                        a, i {
+                            color: $navy-blue;
+                        }                    
+                    }
+                }  
+
+                a.external-link {
+                    z-index: 10;
+                    position: relative;
+                    font-weight: 400;
+                    color: $navy-blue;
+                }          
+            }
+        }
+    }
+}
+
 #tickets {
     .card-deck {
         justify-content: center;
@@ -381,8 +506,6 @@ section {
         margin-bottom: 30px;
         min-width: 290px;
         max-width: 290px;
-        box-shadow: 0 2px 20px 0 rgba(87, 87, 87, 0.1);
-        border: 0;
 
         @media screen and (min-width: 576px) {
             min-width: 220px;
@@ -650,6 +773,144 @@ section {
             a, a:hover, a:focus, a:visited {
                 color: $white;
                 text-decoration: none;
+            }
+        }
+    }
+}
+
+#speaker-details {
+    .container-fluid {
+        margin-top: 90px;
+        box-shadow: 0 2px 20px 0 rgba(87, 87, 87, 0.1);
+
+        @media screen and (min-width: 576px) {
+            margin-top: 110px;
+        }
+
+        @media screen and (min-width: 768px) {
+            margin-top: 130px;
+            box-shadow: none;
+        }
+
+        @media screen and (min-width: 992px) {
+            margin-top: 150px;
+        }
+
+        .row {
+            min-height: 116px;
+
+            @media screen and (min-width: 768px) {
+                box-shadow: 0 2px 20px 0 rgba(87, 87, 87, 0.1);
+            }
+        }
+
+        .speaker-photo {
+            background-color: $navy-blue;
+            
+            div {
+                position: absolute;
+                top: 18px;
+                right: -25px;
+                width: 80px;
+
+                @media screen and (min-width: 576px) {
+                    top: 33px;
+                    right: -47px;
+                    width: 150px;
+                }
+
+                @media screen and (min-width: 768px) {
+                    top: 43px;
+                    right: -62px;
+                    width: 200px;
+                }
+
+                @media screen and (min-width: 992px) {
+                    top: 64px;
+                    right: -94px;
+                    width: 300px;
+                }
+
+                .picture-overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: $navy-blue;
+                    opacity: 0.5;
+                    mix-blend-mode: lighten;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+            
+        }
+
+        .speaker-details-content {
+            padding: 18px 66px 18px 40px; 
+
+            @media screen and (min-width: 576px) { 
+                padding: 33px 66px 66px 80px;
+            }
+
+            @media screen and (min-width: 768px) {
+                padding: 43px 66px 72px 107px;
+            }
+
+            @media screen and (min-width: 992px) {
+                padding: 64px 100px 72px 161px;
+            }
+
+            hr {
+                text-align: left;
+                margin-left: 0;
+                width: 80%;
+                margin: 2em 0;
+                opacity: 0.5;
+                border: solid 0.5px $gray;
+            }
+
+            h1 {
+                
+            }
+
+            .socials {
+                font-size: 20px;
+                margin: 1em 0 0.5em;
+
+                ul, li {
+                    margin: 0;
+                    padding: 0;
+                }
+    
+                ul {
+                    list-style: none;
+    
+                    li {
+                        display: inline-block;
+                        margin-left: 11px;
+    
+                        &:first-child {
+                            margin-left: 0;
+                        }
+    
+                        a, i {
+                            color: $navy-blue;
+                        }                    
+                    }
+                }  
+            }
+        }
+
+        .content-wrapper {
+            padding: 15px 0; 
+            
+            p {
+                font-weight: normal;
+                font-size: 15px;
             }
         }
     }

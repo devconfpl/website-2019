@@ -1,0 +1,48 @@
+{
+    "items": [
+      {
+        "name": "Hadi Hariri",
+        "surname": "Hariri",
+        "company": "JetBrains",
+        "social": {
+          "twitter": "hhariri",
+          "linkedin": "hadi-hariri-b0368a83"
+        },
+        "tag": "hadi-hariri",
+        "description": "<p>Developer and creator of many things <a href='https://hadihariri.com/projects/'>OSS</a>, he has been programming in one way, shape or form since the age of 12. Author of various publications and courses, Hadi has been speaking at industry events for nearly two decades. Host to <a href='http://talkingkotlin.com/'>Talking Kotlin</a>, he works at <a href='http://www.jetbrains.com/'>JetBrains</a> leading the Developer Advocacy team, and spends as much time as he can writing code.</p>"
+      },
+      {
+        "name": "Dylan Beattie",
+        "surname": "Beattie",
+        "company": "Skills Matter",
+        "social": {
+          "twitter": "dylanbeattie",
+          "linkedin": "dylanbeattie"
+        },
+        "tag": "dylan-beattie",
+        "description": "<p>Dylan Beattie is a software developer and technical speaker. He's been building web applications since the days of Windows NT 4; today he works on HTTP APIs, UX design, and distributed systems. Dylan lives and works in London and when he's not hacking code he plays guitar and writes songs.</p>"
+      },
+      {
+        "name": "Mark Rendle",
+        "surname": "Rendle",
+        "company": "Rendle Labs",
+        "social": {
+          "twitter": "markrendle",
+          "linkedin": "markrendle"
+        },
+        "tag": "mark-rendle",
+        "description": "<p>Mark has been a professional software developer for 30 years and a .NET developer for nearly 20 of those. His latest mission is to help .NET teams all over the world move to .NET Core, and adopt modern software development practices, technologies and architectures. To achieve this, Mark creates training materials and online courses, delivers workshops, consults with firms large and small, and develops clever tools to help with the migration process. In his spare time, he makes games with his daughter and son using Unity.</p>"
+      },
+      {
+        "name": "Spencer Schneidenbach",
+        "surname": "Schneidenbach",
+        "company": "",
+        "social": {
+          "twitter": "schneidenbach",
+          "linkedin": "sschneidenbach"
+        },
+        "tag": "spencer-schneidenbach",
+        "description": "<p>Spencer Schneidenbach is a API and integration expert, Microsoft MVP, speaker, consultant, and blogger in the St. Louis, Missouri area.  </p>"
+      }
+    ]
+}

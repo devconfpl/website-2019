@@ -1,0 +1,30 @@
+<div class="card text-center">
+    <div class="picture-overlay"></div>
+    <a href="/speakers/<%= speaker.tag %>" class="stretched-link">
+        <%= tag :img, 
+                :src => '/images/speakers/' + speaker.tag + '-bw.png', 
+                :alt => speaker.name, 
+                :class => 'card-img-top' %>
+    </a>
+    <div class="card-body">
+        <%= speaker.name %>
+    </div>
+    <div class="card-footer">
+        <ul>
+            <% if speaker.social.twitter != nil %>
+                <li>
+                    <a href="<%= twitter_link speaker.social.twitter %>" class="external-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            <% end %>
+            <% if speaker.social.linkedin != nil %>
+                <li>
+                    <a href="<%= linkedin_link speaker.social.linkedin %>" class="external-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            <% end %>
+        </ul>
+    </div>
+</div>

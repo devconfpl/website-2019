@@ -3,6 +3,20 @@ $(function() {
     if ($(".navbar").offset().top > 30) {
       $("header").addClass("affix");
     }
+
+    var locationHash = window.location.hash;
+
+    if (locationHash != '') {
+      $(window).scrollTop(0);
+
+      var speed = 850,
+          offset = 100;
+
+      $("html, body").animate({
+        scrollTop: $(locationHash).offset().top - offset
+      }, speed);
+    }
+
   });
 
   $(window).scroll(function () {
@@ -18,7 +32,7 @@ $(function() {
     $(this).ekkoLightbox();
   });
 
-  $(document).on("click", ".nav-link, a.btn-same-site", function(event) {
+  $(document).on("click", ".main-nav-link, a.btn-same-site", function(event) {
     event.preventDefault();
 
     var page = $(this).attr("href"),

@@ -43,6 +43,28 @@
         },
         "tag": "spencer-schneidenbach",
         "description": "<p>Spencer Schneidenbach is a API and integration expert, Microsoft MVP, speaker, consultant, and blogger in the St. Louis, Missouri area.  </p>"
+      },
+      {
+        "name": "Adam Furmanek",
+        "surname": "Furmanek",
+        "company": "Amazon",
+        "social": {
+          "twitter": "furmanekadam",
+          "linkedin": "adam-furmanek"
+        },
+        "tag": "adam-furmanek",
+        "description": "<p>I am Adam Furmanek and I have been working as a .NET developer for 5 years. Right now I am at Amazon working with Scala, Spark and Machine Learning. I am always interested in digging deeper, exploring machine code and going through implementation details to better understand internals of the technologies I use every day. That’s why I like debugging, decompiling and disassembling the code to understand memory models, concurrency problems and other details hidden deeply inside. In my free time I play ping-pong, watch Woody Allen’s movies and blog stuff at <a href='http://blog.adamfurmanek.pl'>http://blog.adamfurmanek.pl</a>.</p>"
+      },
+      {
+        "name": "Dennie Declercq",
+        "surname": "Declercq",
+        "company": "DDSoft",
+        "social": {
+          "twitter": "DennieDeclercq",
+          "linkedin": "dennie-declercq-822086a2"
+        },
+        "tag": "dennie-declercq",
+        "description": "<p>Fulltime volunteer developer. Dennie is president and developer at DDSoft nonprofit. He started his journey in software for people with disabilities in 2012 in a coaching center in Ostend. At this time he found solutions via apps and software to help people with disabilities to participate in their daily living. It’s also interesting to know that Dennie does all his research and development in apps and software for people with disabilities as volunteer.</p>"
       }
     ]
 }

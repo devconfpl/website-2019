@@ -2,7 +2,6 @@ version: 2.1
 jobs:
         build:
                 docker: 
-                        - image: circleci/ruby
+                        - image: yterajima/middleman
                 steps:
-                        - bundle install
                         - bundle exec middleman build --verbose

@@ -4,4 +4,4 @@ jobs:
                 docker: 
                         image: yterajima/middleman
                 steps:
-                        run: bundle exec middleman build --verbose
+                        - run: bundle exec middleman build --verbose

@@ -1,10 +1,8 @@
 version: 2.1
-dependencies:
-    pre:
-      - bundle install
 jobs:
         build:
                 docker: 
                         - image: circleci/ruby
                 steps:
+                        - bundle install
                         - bundle exec middleman build --verbose

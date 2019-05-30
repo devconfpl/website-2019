@@ -7,5 +7,5 @@ jobs:
                         - checkout
                         - run: gem install middleman
                         - run: bundle install
-                        - run: bundle exec middleman build --verbose
+                        - run: middleman build --verbose
 

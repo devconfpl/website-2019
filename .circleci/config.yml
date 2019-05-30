@@ -7,5 +7,6 @@ jobs:
                         - checkout
                         - run: gem install middleman
                         - run: bundle install
-                        - run: middleman build --verbose
+                          #- run: bundle exec middleman build --verbose
+                        - run: bundle exec middleman s3_sync
 

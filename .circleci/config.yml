@@ -1,4 +1,7 @@
 version: 2.1
+dependencies:
+    pre:
+      - bundle install
 jobs:
         build:
                 docker: 

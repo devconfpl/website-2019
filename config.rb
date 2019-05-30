@@ -1,6 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
-
+#
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
@@ -82,6 +82,6 @@ activate :cloudfront do |cf|
   cf.access_key_id                   = ENV['AWS_ACCESS_KEY_ID']
   cf.secret_access_key               = ENV['AWS_SECRET_KEY']
   cf.distribution_id                 = ENV['PRODUCTION_CLOUDFRONT_DISTRIBUTION_ID']
-  cf.filter                          = /*
+  #cf.filter                          = 
   #cf.after_build                     = false  # default is false
 end

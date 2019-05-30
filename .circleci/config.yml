@@ -4,6 +4,7 @@ jobs:
                 docker: 
                         - image: yterajima/middleman
                 steps:
+                        - checkout
                         - run: gem install middleman
                         - run: bundle install
                         - run: bundle exec middleman build --verbose

@@ -1,5 +1,7 @@
 version: 2.1
 jobs:
         build:
+                docker: 
+                        - image: circleci/ruby
                 steps:
                         - bundle exec middleman build --verbose

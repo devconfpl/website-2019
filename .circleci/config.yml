@@ -1,13 +1,13 @@
 version: 2.1
+variables:
+  LANG: 'en_US.UTF-8'
+  LC_ALL: 'en_US.UTF-8'
 jobs:
         build:
                 docker: 
                         - image: yterajima/middleman
                 steps:
                         - checkout
-                        - run: export LANG=en_US.UTF-8
-                        - run: export LANGUAGE=en_US.UTF-8
-                        - run: export LC_ALL=en_US.UTF-8
                         - run: gem install middleman
                         - run: bundle install
                         - run: bundle exec middleman build --verbose

@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+        build:
+                docker: 
+                        - image: yterajima/middleman
+                steps:
+                        - checkout
+                        - run: gem install middleman
+                        - run: |
+                          export LANG=en_US.UTF-8
+                          export LC_ALL=en_US.UTF-8
+                          bundle install
+                        - run: bundle exec middleman build --verbose
+                        - run: bundle exec middleman s3_sync
+

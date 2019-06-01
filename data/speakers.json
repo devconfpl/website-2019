@@ -65,6 +65,17 @@
         },
         "tag": "dennie-declercq",
         "description": "<p>Fulltime volunteer developer. Dennie is president and developer at DDSoft nonprofit. He started his journey in software for people with disabilities in 2012 in a coaching center in Ostend. At this time he found solutions via apps and software to help people with disabilities to participate in their daily living. It’s also interesting to know that Dennie does all his research and development in apps and software for people with disabilities as volunteer.</p>"
+      },
+      {
+        "name": "Tomasz Pęczek",
+        "surname": "Pęczek",
+        "company": "DDSoft",
+        "social": {
+          "twitter": "tpeczek",
+          "linkedin": "tpeczek"
+        },
+        "tag": "tomasz-peczek",
+        "description": "<p>An experienced software developer and architect. For more than 10 years he has been creating software for health care, banking or e-learning industries. Currently, he is building web applications and microservices using ASP.NET Core and Azure.</p><p>He is constantly sharing his knowledge through his <a href='https://www.tpeczek.com/'>blog</a> or <a href='https://sessionize.com/tpeczek/'>presentations at conferences</a> and user groups. He is also a founder and maintainer of several <a href='https://github.com/tpeczek'>open source projects</a>.</p><p>Microsoft MVP in Developer Technologies category.</p>"
       }
     ]
 }

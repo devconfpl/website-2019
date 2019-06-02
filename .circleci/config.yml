@@ -7,6 +7,7 @@ jobs:
                         - checkout
                           #- run: export LANG=en_US.UTF-8
                           #- run: export LC_ALL=en_US.UTF-8
+                        - run: gem install bundler
                         - run: gem install middleman
                         - run: bundle install
                         - run: bundle exec middleman build --verbose

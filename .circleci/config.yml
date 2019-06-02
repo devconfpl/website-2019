@@ -2,11 +2,9 @@ version: 2.1
 jobs:
         build:
                 docker: 
-                        - image: ruby:2.6.3
+                        - image: mihcall/middleman:1.0.0
                 steps:
                         - checkout
-                        - run: gem install middleman
-                        - run: bundle install
                         - run: bundle exec middleman build --verbose
                         - run: bundle exec middleman s3_sync
 

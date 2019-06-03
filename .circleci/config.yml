@@ -2,7 +2,7 @@ version: 2.1
 jobs:
         build:
                 docker: 
-                        - image: mihcall/middleman
+                        - image: baires/middleman-docker
                 steps:
                         - checkout
                         - run: bundle install

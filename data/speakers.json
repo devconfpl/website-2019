@@ -120,6 +120,17 @@
         },
         "tag": "serhat-can",
         "description": "<p>Serhat Can is a versatile engineer who has built and operated products as part of the Opsgenie team. He currently works at Atlassian, focusing on Opsgenie. His main interest as the Technical Evangelist is helping teams build better on-call and incident response practices.</p><p>He has a special interest in Serverless product family of AWS and shares his production experiences with others as an international speaker. He is an AWS Community Hero. As a writer, he has published many articles and ebooks on websites, you already read.</p><p>Serhat contributes to the community as an event organizer as well as a speaker. He is a Devopsdays core team member where he helps local DevOps communities organize events in 70+ cities. He also hosts many local events in İstanbul and Ankara such as Serverless Turkey meetup, DevOps Turkey meetup, and Devopsdays İstanbul.</p>"
+      },
+      {
+        "name": "Callum Whyte",
+        "surname": "Whyte",
+        "company": "",
+        "social": {
+          "twitter": "callumbwhyte",
+          "linkedin": ""
+        },
+        "tag": "callum-whyte",
+        "description": "<p>Callum is a lead developer who’s expertise lies in building robust scalable microservice and serverless systems on the .NET stack, as well as Xamarin mobile apps and websites with the Umbraco CMS.</p><p>Away from his desk you can find him organising community events; from local meetups and hackathons to the annual 300 person Umbraco UK Festival conference. He’s an active contributor to open source projects, as well as co-host of a weekly YouTube series “UmbraCoffee” and a regular speaker at events all over the world!</p>"
       }
     ]
 }

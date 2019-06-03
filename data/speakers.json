@@ -98,6 +98,17 @@
         },
         "tag": "adam-ralph",
         "description": "<p>Adam is a distributed systems enthusiast and digital nomad. He works for <a href='https://particular.net/'>Particular Software</a>, the makers of <a href='https://particular.net/nservicebus'>NServiceBus</a>. Adam has designed and maintained complex software systems at several companies in the finance industry. He’s seen both the good and the bad that can come from applying techniques like SOA, DDD, and microservices. He also likes to <a href='https://particular.net/events'>speak</a>, <a href='https://github.com/adamralph'>maintain open source projects</a>, and fix white space rule violations.</p>"
+      },
+      {
+        "name": "Henry Been",
+        "surname": "Been",
+        "company": "",
+        "social": {
+          "twitter": "henry_been",
+          "linkedin": "henrybeen"
+        },
+        "tag": "henry-been",
+        "description": "<p>Henry Been is an independent architect and developer from The Netherlands. He enjoys working with software development teams to create and deliver great software. His interests include the Azure cloud, Agile, DevOps, software architecture and the design and implementation of testable and maintainable software. Next to his work, he is also one of the Microsoft ALM | DevOps Rangers and has been awarded the Microsoft MVP award.</p><p><Henry tries to share what he's learned with the community at conferences and meet-ups or through his blog <a href='https://www.henrybeen.nl/'>henrybeen.nl</a>. You can find him on <a href='https://twitter.com/henry_been'>Twitter</a> or <a href='https://www.linkedin.com/in/henrybeen/'>LinkedIn</a><./p>"
       }
     ]
 }

@@ -108,7 +108,18 @@
           "linkedin": "henrybeen"
         },
         "tag": "henry-been",
-        "description": "<p>Henry Been is an independent architect and developer from The Netherlands. He enjoys working with software development teams to create and deliver great software. His interests include the Azure cloud, Agile, DevOps, software architecture and the design and implementation of testable and maintainable software. Next to his work, he is also one of the Microsoft ALM | DevOps Rangers and has been awarded the Microsoft MVP award.</p><p><Henry tries to share what he's learned with the community at conferences and meet-ups or through his blog <a href='https://www.henrybeen.nl/'>henrybeen.nl</a>. You can find him on <a href='https://twitter.com/henry_been'>Twitter</a> or <a href='https://www.linkedin.com/in/henrybeen/'>LinkedIn</a><./p>"
+        "description": "<p>Henry Been is an independent architect and developer from The Netherlands. He enjoys working with software development teams to create and deliver great software. His interests include the Azure cloud, Agile, DevOps, software architecture and the design and implementation of testable and maintainable software. Next to his work, he is also one of the Microsoft ALM | DevOps Rangers and has been awarded the Microsoft MVP award.</p><p><Henry tries to share what he's learned with the community at conferences and meet-ups or through his blog <a href='https://www.henrybeen.nl/'>henrybeen.nl</a>. You can find him on <a href='https://twitter.com/henry_been'>Twitter</a> or <a href='https://www.linkedin.com/in/henrybeen/'>LinkedIn</a>.</p>"
+      },
+      {
+        "name": "Serhat Can",
+        "surname": "Can",
+        "company": "Atlassian",
+        "social": {
+          "twitter": "srhtcn",
+          "linkedin": "serhatcan"
+        },
+        "tag": "serhat-can",
+        "description": "<p>Serhat Can is a versatile engineer who has built and operated products as part of the Opsgenie team. He currently works at Atlassian, focusing on Opsgenie. His main interest as the Technical Evangelist is helping teams build better on-call and incident response practices.</p><p>He has a special interest in Serverless product family of AWS and shares his production experiences with others as an international speaker. He is an AWS Community Hero. As a writer, he has published many articles and ebooks on websites, you already read.</p><p>Serhat contributes to the community as an event organizer as well as a speaker. He is a Devopsdays core team member where he helps local DevOps communities organize events in 70+ cities. He also hosts many local events in İstanbul and Ankara such as Serverless Turkey meetup, DevOps Turkey meetup, and Devopsdays İstanbul.</p>"
       }
     ]
 }

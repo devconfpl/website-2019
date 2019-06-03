@@ -87,6 +87,17 @@
         },
         "tag": "loek-duys",
         "description": "<p>Loek is a Cloud Consultant at Xpirit and a Microsoft Azure MVP, working as a Cloud Architect. He helps companies modernize their software and development processes, from strategy to implementation. He helps teams by inspiring, training, coaching, assessments, architecture and software development.</p><p>As an active member of open source projects, forums and as international speaker, he loves to exchange knowledge with other community members.</p>"
+      },
+      {
+        "name": "Adam Ralph",
+        "surname": "Ralph",
+        "company": "Particular Software",
+        "social": {
+          "twitter": "adamralph",
+          "linkedin": "adamralph"
+        },
+        "tag": "adam-ralph",
+        "description": "<p>Adam is a distributed systems enthusiast and digital nomad. He works for <a href='https://particular.net/'>Particular Software</a>, the makers of <a href='https://particular.net/nservicebus'>NServiceBus</a>. Adam has designed and maintained complex software systems at several companies in the finance industry. He’s seen both the good and the bad that can come from applying techniques like SOA, DDD, and microservices. He also likes to <a href='https://particular.net/events'>speak</a>, <a href='https://github.com/adamralph'>maintain open source projects</a>, and fix white space rule violations.</p>"
       }
     ]
 }

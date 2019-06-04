@@ -6,6 +6,7 @@ jobs:
                 steps:
                         - checkout
                         - run: bundle exec middleman build --verbose
-                        - run: cat build/index.html
                         - run: bundle exec middleman s3_sync
+                        - run: bundle exec middleman invalidate 
+
 

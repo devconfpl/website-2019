@@ -11,3 +11,15 @@ building site:
 ``` shell
 middleman build
 ```
+
+### CI on CircleCI
+CircleCI uses docker image `mihcall/devconf-middleman` which contains:
+  - ruby 2.6
+  - nodejs
+  - middleman
+  - bundler 2.0.1
+  - gems specified in Gemfile
+
+It then builds the project, updates it on S3 and invalidates CloudFront cache.
+
+Adding gems, changing ruby/bundler version etc. should land in the docker image for CircleCI flow to work properly.

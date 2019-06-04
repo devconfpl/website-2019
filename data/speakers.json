@@ -131,6 +131,28 @@
         },
         "tag": "callum-whyte",
         "description": "<p>Callum is a lead developer who’s expertise lies in building robust scalable microservice and serverless systems on the .NET stack, as well as Xamarin mobile apps and websites with the Umbraco CMS.</p><p>Away from his desk you can find him organising community events; from local meetups and hackathons to the annual 300 person Umbraco UK Festival conference. He’s an active contributor to open source projects, as well as co-host of a weekly YouTube series “UmbraCoffee” and a regular speaker at events all over the world!</p>"
+      },
+      {
+        "name": "Paul Stack",
+        "surname": "Stack",
+        "company": "Pulumi",
+        "social": {
+          "twitter": "Stack72",
+          "linkedin": "paul-stack-07691a1b"
+        },
+        "tag": "paul-stack",
+        "description": "<p>Paul Stack is an infrastructure coder and has spoken at various events throughout the world about his passion for continuous integration, continuous delivery and good operational procedures and why they should be part of what developers and system administrators do on a day to day basis.</p><p>He believes that reliably delivering software is more important as its development. Paul’s passions are the DevOps and Continuous Delivery movements and how they help the entire business and its customers.</p>"
+      },
+      {
+        "name": "Jesse McCulloch",
+        "surname": "McCulloch",
+        "company": "Microsoft",
+        "social": {
+          "twitter": "jbmcculloch",
+          "linkedin": "jessebmcculloch"
+        },
+        "tag": "jesse-mcculloch",
+        "description": "<p>Jesse McCulloch is a Program Manager on the mixed reality developer ecosystem team at Microsoft. Starting as a mixed reality developer in 2016, he built up a strong community around HoloLens and Immersive Headsets, and then joined Microsoft in 2018.  This gives him a very unique perspective and strong desire to advocate strongly for the developers who are supporting the platform.  He is often found hanging out in the HoloDevelopers Slack group, and on Twitter trying to keep up with everything going on in this rapidly growing space.</p>"
       }
     ]
 }

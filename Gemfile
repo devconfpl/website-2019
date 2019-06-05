@@ -9,4 +9,4 @@ gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'middleman-s3_sync'
 
 # AWS Cloudfront cache invalidation
-gem "middleman-cloudfront"
+gem "middleman-cdn"

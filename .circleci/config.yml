@@ -7,6 +7,6 @@ jobs:
                         - checkout
                         - run: bundle exec middleman build --verbose
                         - run: bundle exec middleman s3_sync
-                        - run: AWS_ACCESS_KEY= AWS_SECRET= bundle exec middleman invalidate 
+                        - run: AWS_ACCESS_KEY=$AWS_ACCESS_KEY AWS_SECRET=$AWS_SECRET bundle exec middleman invalidate 
 
 

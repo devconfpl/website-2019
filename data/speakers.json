@@ -153,6 +153,28 @@
         },
         "tag": "jesse-mcculloch",
         "description": "<p>Jesse McCulloch is a Program Manager on the mixed reality developer ecosystem team at Microsoft. Starting as a mixed reality developer in 2016, he built up a strong community around HoloLens and Immersive Headsets, and then joined Microsoft in 2018.  This gives him a very unique perspective and strong desire to advocate strongly for the developers who are supporting the platform.  He is often found hanging out in the HoloDevelopers Slack group, and on Twitter trying to keep up with everything going on in this rapidly growing space.</p>"
+      },
+      {
+        "name": "Sebastian Gębski",
+        "surname": "Gębski",
+        "company": "",
+        "social": {
+          "twitter": "liveweird",
+          "linkedin": "sebastian-gebski-2687bb"
+        },
+        "tag": "sebastian-gebski",
+        "description": "<p>My name’s Sebastian Gębski. I think of myself as an Agilista & practitioner of Lean (following the Kaizen path); hardened in fire of numerous software product delivery endeavors (since 2001), for both multi-national enterprises and ambitious start-ups as well; polyglot architect, not afraid of putting his own hands on code; zealot of Domain Driven Design. My job is to make things happen where others have failed, using common sense (that comes first), people (as this is not an individual sport) and technology (that usually is inevitable).</p><p>In the meantime, I share my standpoints on my blogs (https://no-kill-switch.ghost.io & https://anchor.fm/no-kill-switch) and maniacally read books (seriously!). The code I write these days is usually in Elixir (ask me about it!) or (less frequently) .NET. I belong to the Church of Emacs, I am allergic to Scrum disease & when I do stuff - it has to be meaningful, I don’t know how to do things half-heartedly.</p>"
+      },
+      {
+        "name": "Johan Öbrink",
+        "surname": "Obrink",
+        "company": "Iteam",
+        "social": {
+          "twitter": "JohanObrink",
+          "linkedin": "johanobrink"
+        },
+        "tag": "johan-obrink",
+        "description": "<p>Johan Öbrink is a Digital Strategist at Iteam. He started programming on his VIC 20 in 1982 and has since had disparate career working in politics, as a debater, translating books, programming and advising companies on embracing digital technologies. He is an enthusiastic proponent of Test Driven Development, Continuous Delivery and all things automated and a sworn enemy of estimates and all other kinds of waste. When not teaching, coding or speaking at conferences, he builds (failed) drones, digs incessantly at his allotment and has weird dreams about asymmetric key cryptography.</p>"
       }
     ]
 }

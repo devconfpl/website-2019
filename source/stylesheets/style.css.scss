@@ -539,6 +539,7 @@ section {
 
         .speaker-photo {
             background-color: $light-blue;
+            height: 100%;
 
             div {
                 position: absolute;
@@ -571,6 +572,7 @@ section {
             background-repeat: no-repeat;
             background-position-x: 95%;
             background-position-y: 50%;
+            height: 100%;
 
             @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
                 background-image: url('../images/lnr-arrow-right@2x.png');

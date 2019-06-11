@@ -175,6 +175,28 @@
         },
         "tag": "johan-obrink",
         "description": "<p>Johan Öbrink is a Digital Strategist at Iteam. He started programming on his VIC 20 in 1982 and has since had disparate career working in politics, as a debater, translating books, programming and advising companies on embracing digital technologies. He is an enthusiastic proponent of Test Driven Development, Continuous Delivery and all things automated and a sworn enemy of estimates and all other kinds of waste. When not teaching, coding or speaking at conferences, he builds (failed) drones, digs incessantly at his allotment and has weird dreams about asymmetric key cryptography.</p>"
+      },
+      {
+        "name": "Jakub Gutkowski",
+        "surname": "Gutkowski",
+        "company": "",
+        "social": {
+          "twitter": "gutek",
+          "linkedin": "jakubg"
+        },
+        "tag": "jakub-gutkowski",
+        "description": "<p>Dad, husband, developer, geek. Founder of devWarsztaty – free workshops, for anyone who is willing to learn and practice software craftsmanship. Creator of first polish .NET Blogs agregator – .NET Blogs PL. Loves to play with novelties, learn new languages and libraries, avid conference attender, passionate about meeting new people, always willing to help.</p><p>Microsoft MVP.</p><p>Truly believes, that what he does, changes the world and helps others.</p>"
+      },
+      {
+        "name": "Piotr Stapp",
+        "surname": "Stapp",
+        "company": "FinAi",
+        "social": {
+          "twitter": "ptrstpp950",
+          "linkedin": "piotrstapp"
+        },
+        "tag": "piotr-stapp",
+        "description": "<p>Don't Stapp me now ;)</p>"
       }
     ]
 }

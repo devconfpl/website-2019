@@ -31,6 +31,10 @@ data.speakers.items.each do |s|
   proxy "/speakers/#{s.tag}/index.html", "/speakers/template.html", :locals => { :speaker => s }, :ignore => true
 end
 
+data.workshops.items.each do |w|
+  proxy "/workshops/#{w.tag}/index.html", "/workshops/template.html", :locals => { :workshop => w }, :ignore => true
+end
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/

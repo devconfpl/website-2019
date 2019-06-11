@@ -28,6 +28,15 @@ h1 {
     }
 }
 
+h2 {
+    font-size: 15px;
+    font-weight: 900;
+
+    @media screen and (min-width: 576px) {
+        font-size: 20px;
+    }
+}
+
 h3 {
     font-size: 32px;
     font-weight: 900;
@@ -54,6 +63,16 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 900;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0px;
+
+    @media screen and (min-width: 576px) {
+        font-size: 15px;
+    }
 }
 
 b, strong {
@@ -431,7 +450,7 @@ section {
         .card {
             min-width: 180px;
             max-width: 180px;
-            margin-bottom: 15px;
+            margin-bottom: 65px;
 
             .picture-overlay {
                 position: absolute;
@@ -488,6 +507,100 @@ section {
                     color: $navy-blue;
                 }          
             }
+        }
+    }
+}
+
+#workshops {
+    .card-deck {
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: 576px) {
+            align-items: inherit;
+        }
+    }
+
+    .card {
+        margin-bottom: 65px;
+        height: 112px;
+
+        @media screen and (min-width: 576px) {
+            height: 140px;
+        }
+
+        .row {
+            height: 100%;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+
+        .speaker-photo {
+            background-color: $light-blue;
+
+            div {
+                position: absolute;
+                top: 16px;
+                right: -24px;
+
+                @media screen and (min-width: 576px) {
+                    top: 20px;
+                    right: -34px;
+                }
+
+                img {
+                    width: 80px;
+
+                    @media screen and (min-width: 576px) {
+                        width: 100px;
+                    }
+                }
+                
+            }
+        }
+
+        .workshop-details {
+            padding-left: 35px; 
+            padding-right: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url('../images/lnr-arrow-right.png');
+            background-repeat: no-repeat;
+            background-position-x: 95%;
+            background-position-y: 50%;
+
+            @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+                background-image: url('../images/lnr-arrow-right@2x.png');
+                background-size: 16px 11px;
+            }
+
+            @media screen and (min-width: 576px) {
+                padding-left: 50px;
+                padding-right: 70px;
+            }
+
+            a, a:hover, a:focus, a:visited {
+                color: $gray;
+                text-decoration: none;
+            }
+
+            h5 {
+                color: $light-blue;
+            }
+        }
+
+        &.wide {
+            min-width: 300px;
+            max-width: 300px;
+            flex-grow: 1;
+
+            @media screen and (min-width: 576px) {
+                min-width: 570px;
+                max-width: 570px;
+            }   
         }
     }
 }
@@ -778,7 +891,8 @@ section {
     }
 }
 
-#speaker-details {
+#speaker-details, 
+#workshop-details {
     .container-fluid {
         margin-top: 90px;
         box-shadow: 0 2px 20px 0 rgba(87, 87, 87, 0.1);
@@ -799,14 +913,21 @@ section {
         .row {
             min-height: 116px;
 
+            @media screen and (min-width: 576px) {
+                min-height: 216px;
+            }
+
             @media screen and (min-width: 768px) {
+                min-height: 286px;
                 box-shadow: 0 2px 20px 0 rgba(87, 87, 87, 0.1);
+            }
+
+            @media screen and (min-width: 992px) {
+                min-height: 428px;
             }
         }
 
         .speaker-photo {
-            background-color: $navy-blue;
-            
             div {
                 position: absolute;
                 top: 18px;
@@ -846,10 +967,9 @@ section {
                     width: 100%;
                 }
             }
-            
         }
 
-        .speaker-details-content {
+        .details-content {
             padding: 18px 66px 18px 40px; 
 
             @media screen and (min-width: 576px) { 
@@ -871,10 +991,6 @@ section {
                 margin: 2em 0;
                 opacity: 0.5;
                 border: solid 0.5px $gray;
-            }
-
-            h1 {
-                
             }
 
             .socials {
@@ -908,11 +1024,43 @@ section {
         .content-wrapper {
             padding: 15px 0; 
             
-            p {
+            p, li {
                 font-weight: normal;
                 font-size: 15px;
+                color: $gray;
+                letter-spacing: 0.5px;
             }
         }
+    }
+}
+
+#workshop-details {
+    .speaker-photo {
+        background-color: $light-blue;
+    }
+
+    .details-content {
+        h1 {
+            font-size: 15px;
+
+            @media screen and (min-width: 576px) {
+                font-size: 24px;
+            }
+        
+            @media screen and (min-width: 768px) {
+                font-size: 32px;
+            }
+        }
+
+        h5 {
+            color: $light-blue;
+        }
+    }
+}
+
+#speaker-details {
+    .speaker-photo {
+        background-color: $navy-blue;   
     }
 }
 

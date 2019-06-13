@@ -208,6 +208,28 @@
         },
         "tag": "michal-lusiak",
         "description": "<p>Michał is software developer from Poland, currently living in Sweden. On the daily job, he works mostly with backends for web and mobile applications. He has worked with many programming stacks but currently focuses mostly on .NET. Big fan of functional languages. Recently interested in machine learning and data science. Aviation geek, skier and wheels of fury.</p>"
+      },
+      {
+        "name": "Nyaradzai Samushonga",
+        "surname": "Samushonga",
+        "company": "FoldLeft",
+        "social": {
+          "twitter": "nyarisam",
+          "linkedin": "nyari-samushonga-6965523"
+        },
+        "tag": "nyaradzai-samushonga",
+        "description": "<p>Nyari is a Founder and Director of FoldLeft, a digital consultancy that uses hypothesis driven models to design and deliver impactful software solutions in enterprises. Her expertise lies in bridging the divide between business executives and tech innovators to maximise the value of software. She is also the Managing Director of WeThinkCode_ a tuition free education institute that is teaching Africa’s youth to solve problems using code. She lives in Johannesburg, South Africa.</p>"
+      },
+      {
+        "name": "Evelina Gabasova",
+        "surname": "Gabasova",
+        "company": "The Alan Turing Institute",
+        "social": {
+          "twitter": "evelgab",
+          "linkedin": "egabasova"
+        },
+        "tag": "evelina-gabasova",
+        "description": "<p>Evelina is a machine learning and data science researcher. She works as Principal Research Data Scientist at The Alan Turing Institute, the UK's national institute for data science and artificial intelligence. She is a member of the research engineering team where she is connecting academic research with real-world applications. Her passion is to make data science understandable and accessible to everyone. When not wrangling data or training machine learning models, she is an active member of the F# community, Microsoft MVP and a technical speaker.</p>"
       }
     ]
 }

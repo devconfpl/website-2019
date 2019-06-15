@@ -230,6 +230,39 @@
         },
         "tag": "evelina-gabasova",
         "description": "<p>Evelina is a machine learning and data science researcher. She works as Principal Research Data Scientist at The Alan Turing Institute, the UK's national institute for data science and artificial intelligence. She is a member of the research engineering team where she is connecting academic research with real-world applications. Her passion is to make data science understandable and accessible to everyone. When not wrangling data or training machine learning models, she is an active member of the F# community, Microsoft MVP and a technical speaker.</p>"
+      },
+      {
+        "name": "Dan Patrascu-Baba",
+        "surname": "Patrascu-Baba",
+        "company": "",
+        "social": {
+          "twitter": "danpdc",
+          "linkedin": "dan-patrascu-baba-08b78523"
+        },
+        "tag": "dan-patrascu-baba",
+        "description": "<p>As a former Technical Consultant at Microsoft, I helped hundreds of Microsoft partners plan, design, architect and deploy cloud and hybrid infrastructures and software solutions. I delivered hundreds of on site trainings to partners and talked at different conferences. As a founder of @Codewrinkles I try to do my best helping people to learn coding. I am very active trying to contribute to the Blazor community and try to keep up to date with everything around .Net Core, Microsoft Azure (mostly PaaS) and Angular.</p>"
+      },
+      {
+        "name": "Amr Abdelwahab",
+        "surname": "Abdelwahab",
+        "company": "",
+        "social": {
+          "twitter": "amrabdelwahab",
+          "linkedin": "amr-abdelwahab"
+        },
+        "tag": "amr-abdelwahab",
+        "description": "<p>An African Egyptian native who crossed continents to work with his passion in digital environments. Amr’s interests span technology, tech-communities, politics and politics in tech, all enriched through various software engineering roles in Egypt, Hungary and Germany.</p>"
+      },
+      {
+        "name": "Norbert Wójtowicz",
+        "surname": "Wójtowicz",
+        "company": "",
+        "social": {
+          "twitter": "pithyless",
+          "linkedin": "norbertwojtowicz"
+        },
+        "tag": "norbert-wojtowicz",
+        "description": "<p>Norbert Wójtowicz is a recovering empty-stack developer, whose magic 8-ball predicts that Clojure(Script) will be in your future toolbox. You can find his code and ramblings in various corners of the internet, under the felicitous handle <a href='https://twitter.com/pithyless'>@pithyless</a>.</p>"
       }
     ]
 }

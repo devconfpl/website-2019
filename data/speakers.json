@@ -263,6 +263,50 @@
         },
         "tag": "norbert-wojtowicz",
         "description": "<p>Norbert Wójtowicz is a recovering empty-stack developer, whose magic 8-ball predicts that Clojure(Script) will be in your future toolbox. You can find his code and ramblings in various corners of the internet, under the felicitous handle <a href='https://twitter.com/pithyless'>@pithyless</a>.</p>"
+      },
+      {
+        "name": "Coleman Collins",
+        "surname": "Collins",
+        "company": "IonQ",
+        "social": {
+          "twitter": "COLEMANICEWATER",
+          "linkedin": "colemancollins"
+        },
+        "tag": "coleman-collins",
+        "description": "<p>Coleman is a product designer at IonQ, one of the world’s leading quantum computing hardware companies, based in College Park MD. One major aspect of his role is to translate this wild idea into metaphors and explanations suitable for folks who aren’t necessarily PhD physicists or discrete mathematicians. He’d like to do that for you.</p>"
+      },
+      {
+        "name": "Andy Davies",
+        "surname": "Davies",
+        "company": "Reaktor",
+        "social": {
+          "twitter": "pondidum",
+          "linkedin": ""
+        },
+        "tag": "andy-davies",
+        "description": "<p>Andy is a software developer working at Reaktor in Finland.</p><p>He likes talking about Strong Typing, EventSourcing, Continuous Delivery, Architecture, Immutable Infrastructure, and Security. He particularly enjoys making other developers lives easier and automates pretty much anything he touches. He hates complexity, especially unnecessary complexity.</p><p>He blogs at <a href='https://andydote.co.uk'>https://andydote.co.uk</a>, and spends most of his free time in the gym, reading, or drinking coffee, sometimes at the same time.</p>"
+      },
+      {
+        "name": "Christian Horsdal",
+        "surname": "Horsdal",
+        "company": "",
+        "social": {
+          "twitter": "chr_horsdal",
+          "linkedin": "christianhorsdal"
+        },
+        "tag": "christian-horsdal",
+        "description": "<p>Christian Horsdal is an independent consultant with 20 years of experience building many kinds of systems from large scale microservice systems to tiny embedded systems and lots of stuff in between. He is a .NET expert, author of the books “Microservices in .NET Core” and “Instant Nancy Web Development”, trainer, and an occasional open source contributor.</p>"
+      },
+      {
+        "name": "Jimmy Bogard",
+        "surname": "Bogard",
+        "company": "Headspring",
+        "social": {
+          "twitter": "jbogard",
+          "linkedin": "jimmybogard"
+        },
+        "tag": "jimmy-bogard",
+        "description": "<p>Jimmy is a member of the ASPInsiders group, the C# Insiders group, and received the “Microsoft Most Valuable Professional” (MVP) award for ASP.NET in 2009-2018. Jimmy is also the creator and maintainer of the popular OSS library AutoMapper.</p>"
       }
     ]
 }

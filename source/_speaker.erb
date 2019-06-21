@@ -11,14 +11,14 @@
     </div>
     <div class="card-footer">
         <ul>
-            <% if speaker.social.twitter != nil %>
+            <% if speaker.social.twitter != nil && speaker.social.twitter != "" %>
                 <li>
                     <a href="<%= twitter_link speaker.social.twitter %>" class="external-link">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>
             <% end %>
-            <% if speaker.social.linkedin != nil %>
+            <% if speaker.social.linkedin != nil && speaker.social.linkedin != "" %>
                 <li>
                     <a href="<%= linkedin_link speaker.social.linkedin %>" class="external-link">
                         <i class="fab fa-linkedin-in"></i>

@@ -307,6 +307,17 @@
         },
         "tag": "jimmy-bogard",
         "description": "<p>Jimmy is a member of the ASPInsiders group, the C# Insiders group, and received the “Microsoft Most Valuable Professional” (MVP) award for ASP.NET in 2009-2018. Jimmy is also the creator and maintainer of the popular OSS library AutoMapper.</p>"
+      },
+      {
+        "name": "Natalia An",
+        "surname": "An",
+        "company": "Microsoft",
+        "social": {
+          "twitter": "illumikko",
+          "linkedin": "natalyan"
+        },
+        "tag": "natalia-an",
+        "description": "<p>Natalia has been in IT for almost two decades - as a developer, architect, project manager, devops, working in-house and as a consultant. Now she is working with Data Science in Microsoft Development Center Norway.</p><p>She is also a founder and a driving force behind Oslo Maskinlæring meetup group.</p>"
       }
     ]
 }

@@ -318,6 +318,17 @@
         },
         "tag": "natalia-an",
         "description": "<p>Natalia has been in IT for almost two decades - as a developer, architect, project manager, devops, working in-house and as a consultant. Now she is working with Data Science in Microsoft Development Center Norway.</p><p>She is also a founder and a driving force behind Oslo Maskinlæring meetup group.</p>"
+      },
+      {
+        "name": "Beata Szturemska",
+        "surname": "Szturemska",
+        "company": "Spartez",
+        "social": {
+          "twitter": "BeataSzturemska",
+          "linkedin": "beataszturemska"
+        },
+        "tag": "beata-szturemska",
+        "description": "<p>A software engineer at Spartez, who attempts to make Jira better every day. Not a blind fanatic of any particular technology or programming language. She loves facing challenges, because it gives her an opportunity to make mistakes and learn something new daily. Fluent in Java, Python's pal. Queen of the Mountains and Jenkins pipelines. Speaker at conferences. Strongly involved in promoting science in children and youth. Her love for cycling exceeds 7000 km a year.</p>"
       }
     ]
 }

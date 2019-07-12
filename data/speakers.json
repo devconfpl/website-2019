@@ -340,6 +340,28 @@
         },
         "tag": "todd-gardner",
         "description": ""
+      },
+      {
+        "name": "Piotr Stawirej",
+        "surname": "Stawirej",
+        "company": "TomTom",
+        "social": {
+          "twitter": "p_stawirej",
+          "linkedin": "piotr-stawirej"
+        },
+        "tag": "piotr-stawirej",
+        "description": "<p>Piotr Stawirej is clean code fanatic, BDD obsessed and agile methodology adherent. Passionate about professional attitude in every aspect of work. With over 11 years of experience in Tele Atlas and TomTom, leading map making industries, with large back-end and transactional systems. He cherishes clean design regardless of used language or technology and is strongly against cargo cult approach.</p><p>See also <a href='https://piotrstawirej.bitbucket.io/'>https://piotrstawirej.bitbucket.io/</a>.</p>"
+      },
+      {
+        "name": "Maciej Gajdzica",
+        "surname": "Gajdzica",
+        "company": "Solwit",
+        "social": {
+          "twitter": "MaciekGajdzica",
+          "linkedin": "maciej-gajdzica-156370a8"
+        },
+        "tag": "maciej-gajdzica",
+        "description": "<p>I am embedded systems developer working in Solwit and specializing in safety-critical systems. During the last seven years I worked on various projects ranging from railway traffic control, automotive and medical devices to IoT and smart buildings. I am interested in adapting and spreading good practices among embedded developers who often doesn't follow newest trends. In spare time I write on my blog <a href='https://ucgosu.pl'>https://ucgosu.pl</a>.</p>"
       }
     ]
 }

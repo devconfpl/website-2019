@@ -80,8 +80,103 @@
         "speaker_id": "coleman-collins"
     },
     {
+        "id": "security",
+        "title": "Security – Only Developers Can Make It Proactive",
+        "speaker_id": "beata-szturemska"
+    },
+    {
+        "id": "talk-to-me-nicely",
+        "title": "Talk to Me Nicely - How to Communicate Your Ideas and Speed Up Your Career",
+        "speaker_id": "piotr-stawirej"
+    },
+    {
+        "id": "when-human-life-depends-on-software",
+        "title": "When Human Life Depends on Software - Introduction to Safety-Critical Systems",
+        "speaker_id": "maciej-gajdzica"
+    },
+    {
+        "id": "welcome-to-the-machine",
+        "title": "Welcome to the Machine",
+        "speaker_id": "hadi-hariri"
+    },
+    {
+        "id": "from-monolithic-monster",
+        "title": "From Monolithic Monster to Majestic Microservice App",
+        "speaker_id": "callum-whyte"
+    },
+    {
+        "id": "six-little-lines-of-fail",
+        "title": "Six Little Lines of Fail",
+        "speaker_id": "jimmy-bogard"
+    },
+    {
+        "id": "azure-functions",
+        "title": "Azure Functions Beyond \"Out of the Box\" - a Guided Tour of Azure Functions Extensibility",
+        "speaker_id": "tomasz-peczek"
+    },
+    {
+        "id": "running-a-real-world-system",
+        "title": "Running a Real World, Mission-Critical System on Azure",
+        "speaker_id": "loek-duys"
+    },
+    {
+        "id": "designing-rest-api",
+        "title": "Designing and Implementing REST APIs For The Long Haul",
+        "speaker_id": "spencer-schneidenbach"
+    },
+    {
+        "id": "futurology",
+        "title": "Futurology for Dummies - the Next 30 Years in Tech",
+        "speaker_id": "mark-rendle"
+    },
+    {
         "id": "session-tbd",
         "title": "tbd",
-        "speaker_id": "beata-szturemska"
+        "speaker_id": "dylan-beattie"
+    },
+    {
+        "id": "ml-buzzwords",
+        "title": "ML Buzzwords Demystified",
+        "speaker_id": "natalia-an"
+    },
+    {
+        "id": "machine-learning-and-net",
+        "title": "How to Use Machine Learning and .NET to Write Crushing Metal Riffs",
+        "speaker_id": "michal-lusiak"
+    },
+    {
+        "id": "breaking-black-box-ai",
+        "title": "Breaking Black-Box AI",
+        "speaker_id": "evelina-gabasova"
+    },
+    {
+        "id": "memory-management",
+        "title": "Manual Memory Management in .NET Framework",
+        "speaker_id": "adam-furmanek"
+    },
+    {
+        "id": "mr-cloud-services",
+        "title": "tbd",
+        "speaker_id": "jesse-mcculloch"
+    },
+    {
+        "id": "mirror-mirror",
+        "title": "Mirror, Mirror on the Wall, What is the Vainest Metric of Them All?",
+        "speaker_id": "paul-stack"
+    },
+    {
+        "id": "session-tbd-2",
+        "title": "tbd",
+        "speaker_id": "norbert-wojtowicz"
+    },
+    {
+        "id": "ant-paths",
+        "title": "Ant Paths and Strindberg’s Elevator – Leadership and Value in an Age of Change",
+        "speaker_id": "johan-obrink"
+    },
+    {
+        "id": "kotlin-anywhere",
+        "title": "Kotlin/Anywhere",
+        "speaker_id": "hadi-hariri"
     }
 ]

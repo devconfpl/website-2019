@@ -83,14 +83,21 @@
                         },
                         {
                             "time": "16:10 - 17:00",
-                            "session_id": "session-tbd"
+                            "session_id": "security"
                         }
                     ]
                 },
                 {
                     "name": "Room 4",
                     "slots": [
-                        
+                        {
+                            "time": "10:30 - 11:20",
+                            "session_id": "talk-to-me-nicely"
+                        },
+                        {
+                            "time": "11:40 - 12:30",
+                            "session_id": "when-human-life-depends-on-software"
+                        }
                     ]
                 }
             ]
@@ -102,19 +109,84 @@
                 {
                     "name": "Room 1",
                     "slots": [
-                        
+                        {
+                            "time": "09:30 - 10:20",
+                            "session_id": "welcome-to-the-machine"
+                        },
+                        {
+                            "time": "10:40 - 11:30",
+                            "session_id": "from-monolithic-monster"
+                        },
+                        {
+                            "time": "11:50 - 12:40",
+                            "session_id": "six-little-lines-of-fail"
+                        },
+                        {
+                            "time": "13:50 - 14:40",
+                            "session_id": "azure-functions"
+                        },
+                        {
+                            "time": "15:00 - 15:50",
+                            "session_id": "running-a-real-world-system"
+                        },
+                        {
+                            "time": "16:10 - 17:00",
+                            "session_id": "designing-rest-api"
+                        },
+                        {
+                            "time": "17:20 - 18:10",
+                            "session_id": "futurology"
+                        }
                     ]
                 },
                 {
                     "name": "Room 2",
                     "slots": [
-                        
+                        {
+                            "time": "10:40 - 11:30",
+                            "session_id": "session-tbd"
+                        },
+                        {
+                            "time": "11:50 - 12:40",
+                            "session_id": "ml-buzzwords"
+                        },
+                        {
+                            "time": "13:50 - 14:40",
+                            "session_id": "machine-learning-and-net"
+                        },
+                        {
+                            "time": "15:00 - 15:50",
+                            "session_id": "breaking-black-box-ai"
+                        },
+                        {
+                            "time": "16:10 - 17:00",
+                            "session_id": "memory-management"
+                        }
                     ]
                 },
                 {
                     "name": "Room 3",
                     "slots": [
-                        
+                        {
+                            "time": "10:40 - 11:30",
+                            "session_id": "mr-cloud-services"
+                        },
+                        {
+                            "time": "11:50 - 12:40",
+                            "session_id": "mirror-mirror"
+                        },
+                        {
+                            "time": "13:50 - 14:40",
+                            "session_id": "session-tbd-2"
+                        },
+                        {
+                            "time": "15:00 - 15:50",
+                            "session_id": "ant-paths"
+                        },
+                        {
+                            "time": "16:10 - 17:00",
+                            "session_id": "kotlin-anywhere"
+                        }
                     ]
                 },
                 {

@@ -626,20 +626,38 @@ section {
         width: 100%;
     }
 
+    .tab-content-schedule {
+        @media screen and (min-width: 768px) {
+            padding-top: 20px;
+        }
+    }
+
     .panel-group {
         .panel {
             &.schedule-item {
                 position: relative;
-                padding: 0 57px 0 157px;
+                padding: 0 32px;
+
+                @media screen and (min-width: 576px) {
+                    padding: 0 57px 0 157px;
+                }
 
                 .lecture-time-wrapper {
-                    position: absolute;
-                    top: 27px;
-                    left: 24px;
-                    display: inline-block;
+                    position: relative;
+                    display: block;
                     font-weight: 900;
-                    font-size: 15px;
+                    font-size: 12px;
                     color: $lighter-gray;
+                    margin-top: 15px;
+
+                    @media screen and (min-width: 576px) {
+                        position: absolute;
+                        top: 27px;
+                        left: 24px;
+                        display: inline-block;
+                        font-size: 15px;
+                        margin-top: 0;
+                    }
                 }
 
                 .lecture-speaker-photo {
@@ -669,13 +687,22 @@ section {
                 }
 
                 .schedule-item-body {
-                    padding: 20px 50px;
-                    text-align: justify;
+                    padding: 10px 50px;
+                    text-align: left;
                     color: $gray;
 
+                    @media screen and (min-width: 576px) {
+                        padding: 20px 50px;
+                        text-align: justify;
+                    }
+
                     p, li {
-                        font-size: 14px;
+                        font-size: 12px;
                         line-height: 1.5;
+
+                        @media screen and (min-width: 576px) {
+                            font-size: 14px;
+                        }
                     }
                 }
 
@@ -683,9 +710,13 @@ section {
                     position: relative;
                     display: inline-block;
                     width: 100%;
-                    padding: 20px 0 18px;
+                    padding: 5px 0 18px;
                     border-bottom: 0.6px solid rgba(87, 87, 87, 0.1);
                     color: $gray;
+
+                    @media screen and (min-width: 576px) {
+                        padding: 20px 0 18px;
+                    }
 
                     h5 {
                         margin-bottom: 0.1rem;
@@ -735,25 +766,58 @@ section {
     .nav-current {
         position: relative;
         margin: 0;
-        display: none;
+        display: block;
         width: auto;
         height: auto;
+        padding: 16px 32px;
+        padding-bottom: 0;
+        font-weight: 900;
+        color: $lighter-gray;        
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+
+        > * {
+            vertical-align: middle;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+
+        > span {
+            margin-left: 15px;
+            color: $lighter-gray;
+        }
+
+        > h5 {
+            margin-left: 6px;
+            color: $gray;
+        }
     }
 }
 
 .nav {
     &.nav-tabs {
-        border: none;
+        border: none;        
     }
 
     &.nav-schedule {
-        display: table;
+        display: none;
         width: 100%;
         z-index: 10;
 
+        @media screen and (min-width: 768px) {
+            display: table;
+        }
+
         > li {
             position: relative;
-            display: table-cell;
+            display: block;
+
+            @media screen and (min-width: 768px) {
+                display: table-cell;
+            }
 
             a {
                 background-color: rgba(234, 243, 255, 0.7);
@@ -791,11 +855,19 @@ section {
     }
 
     &.nav-rooms {
-        border-bottom: 0.6px solid $gray;
+        border-bottom: none;
+
+        @media screen and (min-width: 768px) {
+            border-bottom: 0.6px solid $gray;
+        }
 
         > li {
-            display: inline-block;
+            display: block;
             margin: 0 20px;
+
+            @media screen and (min-width: 768px) {
+                display: inline-block;
+            }
 
             a {
                 background-color: transparent;

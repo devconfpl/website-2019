@@ -27,13 +27,28 @@ $(function() {
       $this.wrapAll("<div class='nav-wrapper'></div>");
       $this.before($field);
 
+      var toggleDropdown = function () {
+        $this
+          .stop(true, true)
+          .slideToggle(200)
+          .toggleClass("open");
+      }
+
       $field.on("click", function () {
-        console.log("clicked on $field");
+        toggleDropdown();
       });
 
       $this.on("click", "a", function () {
-        console.log("clicked a");
+        $field.html($(this).html());
       });
+
+      $("body").on("click", function (event) {
+        $target = $(event.target);
+
+        if (!$target.closest($field).length && $this.is(".open")) {
+          toggleDropdown();
+        }
+      })
     });
 
   });

@@ -1,0 +1,129 @@
+{
+    "items": [
+        {
+            "name": "Day 1",
+            "date": "26 Sept 2019",
+            "rooms": [
+                {
+                    "name": "Room 1",
+                    "slots": [
+                        {
+                            "time": "09:10 - 10:00",
+                            "session_id": "first-things-first"
+                        },
+                        {
+                            "time": "10:30 - 11:20",
+                            "session_id": "microservices-from-the-trenches"
+                        },
+                        {
+                            "time": "11:40 - 12:30",
+                            "session_id": "serverless-architecture-on-production"
+                        },
+                        {
+                            "time": "13:40 - 14:30",
+                            "session_id": "code-the-future-now"
+                        },
+                        {
+                            "time": "14:50 - 15:40",
+                            "session_id": "domain-driven-design"
+                        },
+                        {
+                            "time": "16:10 - 17:00",
+                            "session_id": "identifying-and-scoping-microservices"
+                        },
+                        {
+                            "time": "17:20 - 18:10",
+                            "session_id": "build-vs-buy"
+                        }
+                    ]
+                },
+                {
+                    "name": "Room 2",
+                    "slots": [
+                        {
+                            "time": "10:30 - 11:20",
+                            "session_id": "designing-a-system-for-chaos"
+                        },
+                        {
+                            "time": "11:40 - 12:30",
+                            "session_id": "logging-instrumentation-dashboards"
+                        },
+                        {
+                            "time": "13:40 - 14:30",
+                            "session_id": "feature-toggles"
+                        },
+                        {
+                            "time": "14:50 - 15:40",
+                            "session_id": "hololens-2"
+                        },
+                        {
+                            "time": "16:10 - 17:00",
+                            "session_id": "three-rewrites-one-startup"
+                        }
+                    ]
+                },
+                {
+                    "name": "Room 3",
+                    "slots": [
+                        {
+                            "time": "10:30 - 11:20",
+                            "session_id": "kaizen-driven-development"
+                        },
+                        {
+                            "time": "11:40 - 12:30",
+                            "session_id": "privilege-as-a-technical-debt"
+                        },
+                        {
+                            "time": "13:40 - 14:30",
+                            "session_id": "designing-accessible-apps"
+                        },
+                        {
+                            "time": "14:50 - 15:40",
+                            "session_id": "quantun-computing"
+                        },
+                        {
+                            "time": "16:10 - 17:00",
+                            "session_id": "session-tbd"
+                        }
+                    ]
+                },
+                {
+                    "name": "Room 4",
+                    "slots": [
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Day 2",
+            "date": "27 Sept 2019",
+            "rooms": [
+                {
+                    "name": "Room 1",
+                    "slots": [
+                        
+                    ]
+                },
+                {
+                    "name": "Room 2",
+                    "slots": [
+                        
+                    ]
+                },
+                {
+                    "name": "Room 3",
+                    "slots": [
+                        
+                    ]
+                },
+                {
+                    "name": "Room 4",
+                    "slots": [
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}

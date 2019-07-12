@@ -17,6 +17,25 @@ $(function() {
       }, speed);
     }
 
+    var $nav = $(".nav");
+
+    $nav.each(function () {
+      var $this = $(this),
+          $active = $this.find("li > a.active"),
+          $field = $("<span class='nav-current'>" + $active.html() + "</span>");
+
+      $this.wrapAll("<div class='nav-wrapper'></div>");
+      $this.before($field);
+
+      $field.on("click", function () {
+        console.log("clicked on $field");
+      });
+
+      $this.on("click", "a", function () {
+        console.log("clicked a");
+      });
+    });
+
   });
 
   $(window).scroll(function () {

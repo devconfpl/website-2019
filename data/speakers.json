@@ -329,6 +329,17 @@
         },
         "tag": "beata-szturemska",
         "description": "<p>A software engineer at Spartez, who attempts to make Jira better every day. Not a blind fanatic of any particular technology or programming language. She loves facing challenges, because it gives her an opportunity to make mistakes and learn something new daily. Fluent in Java, Python's pal. Queen of the Mountains and Jenkins pipelines. Speaker at conferences. Strongly involved in promoting science in children and youth. Her love for cycling exceeds 7000 km a year.</p>"
+      },
+      {
+        "name": "Todd Gardner",
+        "surname": "Gardner",
+        "company": "",
+        "social": {
+          "twitter": "toddhgardner",
+          "linkedin": "toddhgardner"
+        },
+        "tag": "todd-gardner",
+        "description": ""
       }
     ]
 }

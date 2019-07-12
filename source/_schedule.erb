@@ -1,0 +1,47 @@
+<section id="schedule">
+    <div class="container-fluid">
+        <div class="section-header text-center">
+            <h3>Schedule</h3>
+        </div>
+        <div class="row no-gutters">
+            <ul class="nav nav-tabs nav-schedule nav-days" role="tablist">
+                <% data.schedule.items.sort_by(&:name).each_with_index do |s, idx| %>
+                    <li class="nav-item">
+                        <a class="<%=(idx == 0 ? "active" : "") %>" href="#schedule-day-<%= idx + 1 %>" data-toggle="tab" role="tab">
+                            <h3><%= s.name %></h3>
+                            <span class="lnr lnr-calendar-full"></span>
+                            <h5><%= s.date %></h5>
+                        </a>
+                    </li>
+                <% end %>
+            </ul>
+            <div class="tab-content">
+                <% data.schedule.items.sort_by(&:name).each_with_index do |s, idx| %>
+                    <div id="schedule-day-<%= idx + 1 %>" class="tab-pane fade <%= idx == 0 ? 'show active' : '' %>" role="tabpanel">
+                        <ul class="nav nav-tabs nav-schedule nav-rooms">
+                            <% s.rooms.sort_by(&:name).each_with_index do |r, ridx| %>
+                                <li class="nav-item">
+                                    <a class="<%=(ridx == 0 ? "active" : "") %>" href="#schedule-day-<%= idx + 1 %>-room-<%= ridx + 1 %>" data-toggle="tab" role="tab">
+                                        <%= r.name %>
+                                    </a>
+                                </li>
+                            <% end %>
+                        </ul>
+
+                        <div class="tab-content tab-content-schedule">
+                            <% s.rooms.sort_by(&:name).each_with_index do |r, ridx| %>
+                                <div id="schedule-day-<%= idx + 1 %>-room-<%= ridx + 1 %>" class="tab-pane fade <%= ridx == 0 ? 'show active' : '' %>" role="tabpanel">
+                                    <div class="panel-group" id="schedule-day-<%= idx + 1 %>-room-<%= ridx + 1 %>-timeline">
+                                        <% r.slots.each_with_index do |slot, sidx| %>
+                                            <%= partial(:schedule_item, :locals => { :schedule_item => slot, :day => idx + 1, :room => ridx + 1, :time => sidx + 1 }) %>
+                                        <% end %>    
+                                    </div>
+                                </div>
+                            <% end %>
+                        </div>
+                    </div>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</section>

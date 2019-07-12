@@ -1,0 +1,87 @@
+[
+    {
+        "id": "first-things-first",
+        "title": "First Things First",
+        "speaker_id": "nyaradzai-samushonga"
+    },
+    {
+        "id": "microservices-from-the-trenches",
+        "title": "Microservices from the Trenches. When Buzzwords Don't Make Your Application Work",
+        "speaker_id": "dan-patrascu-baba"
+    },
+    {
+        "id": "serverless-architecture-on-production",
+        "title": "Serverless Architecture on Production: Good, Bad and Ugly Parts",
+        "speaker_id": "serhat-can"
+    },
+    {
+        "id": "code-the-future-now",
+        "title": "Code the Future, Now",
+        "speaker_id": "adam-ralph"
+    },
+    {
+        "id": "domain-driven-design",
+        "title": "Domain Driven Design: The Good Parts",
+        "speaker_id": "jimmy-bogard"
+    },
+    {
+        "id": "identifying-and-scoping-microservices",
+        "title": "Identifying and Scoping Microservices",
+        "speaker_id": "christian-horsdal"
+    },
+    {
+        "id": "build-vs-buy",
+        "title": "Build vs Buy: Software Systems at Jurassic Park",
+        "speaker_id": "todd-gardner"
+    },
+    {
+        "id": "designing-a-system-for-chaos",
+        "title": "Designing a System for Chaos",
+        "speaker_id": "paul-stack"
+    },
+    {
+        "id": "logging-instrumentation-dashboards",
+        "title": "Logging, Instrumentation, Dashboards and Alerts - for Developers",
+        "speaker_id": "henry-been"
+    },
+    {
+        "id": "feature-toggles",
+        "title": "Feature Toggles: The Good, The Bad and The Ugly",
+        "speaker_id": "andy-davies"
+    },
+    {
+        "id": "hololens-2",
+        "title": "tbd",
+        "speaker_id": "jesse-mcculloch"
+    },
+    {
+        "id": "three-rewrites-one-startup",
+        "title": "Three Rewrites, One Startup - An Architect’s Journey",
+        "speaker_id": "spencer-schneidenbach"
+    },
+    {
+        "id": "kaizen-driven-development",
+        "title": "Kaizen-Driven Development: Carve Your Own Path",
+        "speaker_id": "sebastian-gebski"
+    },
+    {
+        "id": "privilege-as-a-technical-debt",
+        "title": "Privilege as a Technical Debt",
+        "speaker_id": "amr-abdelwahab"
+    },
+    {
+        "id": "designing-accessible-apps",
+        "title": "Designing Accessible Apps",
+        "speaker_id": "dennie-declercq"
+    },
+    {
+        "id": "quantun-computing",
+        "title": "Quantum Computing: the Important Stuff",
+        "speaker_id": "coleman-collins"
+    },
+    {
+        "id": "session-tbd",
+        "title": "tbd",
+        "speaker_id": "beata-szturemska"
+    }
+]

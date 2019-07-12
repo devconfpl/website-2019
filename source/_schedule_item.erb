@@ -1,0 +1,26 @@
+<%
+    session = data.sessions.find { |s| s.id == schedule_item.session_id }
+    speaker = data.speakers.items.find { |s| s.tag == session.speaker_id }
+%>
+
+<div class="panel schedule-item">
+    <div class="lecture-time-wrapper">
+        <%= schedule_item.time %>
+    </div>
+    <a data-toggle="collapse" href="#schedule-day-<%= day %>-room-<%= room %>-time-<%= time %>" class="schedule-item-toggle collapsed" role="button"> 
+        <div class="lecture-speaker-photo">
+            <%= tag :img, :src => "/images/speakers/" + speaker.tag + '-bw.png', :alt => speaker.name, :class => "" %>
+            <div class="picture-overlay"></div>
+        </div>
+        <div class="lecture-details">
+            <h5><%= session.title %></h5>
+            <h6><%= speaker.name %></h6>
+        </div>
+        <span class="lnr lnr-chevron-down"></span>
+        <span class="lnr lnr-chevron-up"></span>
+    </a>
+
+    <div id="schedule-day-<%= day %>-room-<%= room %>-time-<%= time %>" class="panel-collapse collapse schedule-item-body">
+        <%= partial "sessions/" + session.id %>
+    </div>
+</div>

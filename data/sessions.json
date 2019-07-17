@@ -30,11 +30,6 @@
         "speaker_id": "christian-horsdal"
     },
     {
-        "id": "build-vs-buy",
-        "title": "Build vs Buy: Software Systems at Jurassic Park",
-        "speaker_id": "todd-gardner"
-    },
-    {
         "id": "designing-a-system-for-chaos",
         "title": "Designing a System for Chaos",
         "speaker_id": "paul-stack"
@@ -165,8 +160,8 @@
         "speaker_id": "paul-stack"
     },
     {
-        "id": "session-tbd-2",
-        "title": "tbd",
+        "id": "data-over-code",
+        "title": "Data over Code: a Short Hyperbole",
         "speaker_id": "norbert-wojtowicz"
     },
     {
@@ -178,5 +173,15 @@
         "id": "kotlin-anywhere",
         "title": "Kotlin/Anywhere",
         "speaker_id": "hadi-hariri"
+    },
+    {
+        "id": "async-internals",
+        "title": "Async Internals in .NET",
+        "speaker_id": "adam-furmanek"
+    },
+    {
+        "id": "impostor-syndrome",
+        "title": "tbd",
+        "speaker_id": "anita-przybyl"
     }
 ]

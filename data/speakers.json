@@ -331,17 +331,6 @@
         "description": "<p>A software engineer at Spartez, who attempts to make Jira better every day. Not a blind fanatic of any particular technology or programming language. She loves facing challenges, because it gives her an opportunity to make mistakes and learn something new daily. Fluent in Java, Python's pal. Queen of the Mountains and Jenkins pipelines. Speaker at conferences. Strongly involved in promoting science in children and youth. Her love for cycling exceeds 7000 km a year.</p>"
       },
       {
-        "name": "Todd Gardner",
-        "surname": "Gardner",
-        "company": "",
-        "social": {
-          "twitter": "toddhgardner",
-          "linkedin": "toddhgardner"
-        },
-        "tag": "todd-gardner",
-        "description": ""
-      },
-      {
         "name": "Piotr Stawirej",
         "surname": "Stawirej",
         "company": "TomTom",
@@ -362,6 +351,17 @@
         },
         "tag": "maciej-gajdzica",
         "description": "<p>I am embedded systems developer working in Solwit and specializing in safety-critical systems. During the last seven years I worked on various projects ranging from railway traffic control, automotive and medical devices to IoT and smart buildings. I am interested in adapting and spreading good practices among embedded developers who often doesn't follow newest trends. In spare time I write on my blog <a href='https://ucgosu.pl'>https://ucgosu.pl</a>.</p>"
+      },
+      {
+        "name": "Anita Przybył",
+        "surname": "Przybył",
+        "company": "SOFT-SKILLS Anita Przybył",
+        "social": {
+          "twitter": "Anita_Przybyl",
+          "linkedin": "anita-przybyl"
+        },
+        "tag": "anita-przybyl",
+        "description": "<p></p>"
       }
     ]
 }

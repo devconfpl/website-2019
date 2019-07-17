@@ -13,7 +13,7 @@
                         },
                         {
                             "time": "10:30 - 11:20",
-                            "session_id": "microservices-from-the-trenches"
+                            "session_id": "hololens-2"
                         },
                         {
                             "time": "11:40 - 12:30",
@@ -21,7 +21,7 @@
                         },
                         {
                             "time": "13:40 - 14:30",
-                            "session_id": "code-the-future-now"
+                            "session_id": "running-a-real-world-system"
                         },
                         {
                             "time": "14:50 - 15:40",
@@ -29,11 +29,11 @@
                         },
                         {
                             "time": "16:10 - 17:00",
-                            "session_id": "identifying-and-scoping-microservices"
+                            "session_id": "three-rewrites-one-startup"
                         },
                         {
                             "time": "17:20 - 18:10",
-                            "session_id": "build-vs-buy"
+                            "session_id": ""
                         }
                     ]
                 },
@@ -54,11 +54,11 @@
                         },
                         {
                             "time": "14:50 - 15:40",
-                            "session_id": "hololens-2"
+                            "session_id": "microservices-from-the-trenches"
                         },
                         {
                             "time": "16:10 - 17:00",
-                            "session_id": "three-rewrites-one-startup"
+                            "session_id": "identifying-and-scoping-microservices"
                         }
                     ]
                 },
@@ -127,7 +127,7 @@
                         },
                         {
                             "time": "15:00 - 15:50",
-                            "session_id": "running-a-real-world-system"
+                            "session_id": "code-the-future-now"
                         },
                         {
                             "time": "16:10 - 17:00",
@@ -177,7 +177,7 @@
                         },
                         {
                             "time": "13:50 - 14:40",
-                            "session_id": "session-tbd-2"
+                            "session_id": "data-over-code"
                         },
                         {
                             "time": "15:00 - 15:50",
@@ -192,7 +192,14 @@
                 {
                     "name": "Room 4",
                     "slots": [
-                        
+                        {
+                            "time": "10:40 - 11:30",
+                            "session_id": "async-internals"
+                        },
+                        {
+                            "time": "11:50 - 12:40",
+                            "session_id": "impostor-syndrome"
+                        }
                     ]
                 }
             ]

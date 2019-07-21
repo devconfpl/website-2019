@@ -1,3 +1,7 @@
+<%
+    speaker_sessions = data.sessions.select { |s| s.speaker_id == speaker.tag }
+%>
+
 <section id="speaker-details">
     <div class="container-fluid">
         <div class="row">
@@ -28,22 +32,13 @@
                     </ul>
                 </div>
                 <div class="content-wrapper d-none d-md-block">
-                    <div>
-                        <%= speaker.description %>
-                    </div>
-
-                    <hr />
-                
+                    <%= partial(:speaker_details_content, :locals => { :speaker => speaker, :sessions => speaker_sessions }) %>
                 </div>
             </div>
         </div>
         <div class="row d-md-none content-wrapper">
             <div class="col">
-                <div>
-                    <%= speaker.description %>
-                </div>
-
-                <hr />
+                <%= partial(:speaker_details_content, :locals => { :speaker => speaker, :sessions => speaker_sessions }) %>
             </div>
         </div>
     </div>

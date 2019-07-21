@@ -1260,15 +1260,6 @@ section {
                 padding: 64px 100px 72px 161px;
             }
 
-            hr {
-                text-align: left;
-                margin-left: 0;
-                width: 80%;
-                margin: 2em 0;
-                opacity: 0.5;
-                border: solid 0.5px $gray;
-            }
-
             .socials {
                 font-size: 20px;
                 margin: 1em 0 0.5em;
@@ -1305,6 +1296,44 @@ section {
                 font-size: 15px;
                 color: $gray;
                 letter-spacing: 0.5px;
+            }
+
+            hr {
+                text-align: left;
+                margin-left: 0;
+                width: 100%;
+                margin: 1em 0 0 0;
+                opacity: 0.5;
+                border: solid 0.5px $gray;
+
+                @media screen and (min-width: 768px) {
+                    margin-top: 2em;
+                    width: 80%;
+                }
+            }
+        }
+
+        .speaker-activities {
+            .speaker-activity {
+                .activity-time {
+                    padding: 25px 0;
+                    color: $gray;
+                    font-size: 15px;
+                    display: table-cell;
+
+                    > * {
+                        vertical-align: middle;
+                    }
+
+                    > .lnr {
+                        font-size: 16px;
+                    }
+                }
+
+                h4 {
+                    color: $gray;
+                    margin-bottom: 0.75rem;
+                }
             }
         }
     }

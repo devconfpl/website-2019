@@ -1,37 +1,39 @@
 <%
-    session = data.sessions.find { |s| s.id == schedule_item.session_id }
+    slot_id = day * 100 + room * 10 + slot
+    slot_time_id = day * 100 + slot
 
-    if session.nil?
-        session = { "title" => "tbd", "speaker_id" => "", "id" => nil }
-    end
+    slot_start_time = Time.parse(data.slots[slot_time_id])
+    slot_end_time = slot_start_time + data.general.slot_length * 60
 
-    speaker = data.speakers.items.find { |s| s.tag == session["speaker_id"] }
-
-    if speaker.nil?
-        speaker = { "tag" => "unknown", "name" => "unknown" }
-    end
+    session = data.sessions.find { |s| s.slot == slot_id }
+    speaker = session.nil? ? nil : data.speakers.items.find { |s| s.tag == session.speaker_id }
 %>
 
 <div class="panel schedule-item">
     <div class="lecture-time-wrapper">
-        <%= schedule_item.time %>
+        <%= slot_start_time.strftime("%R") %> - <%= slot_end_time.strftime("%R") %>
     </div>
-    <a data-toggle="collapse" href="#schedule-day-<%= day %>-room-<%= room %>-time-<%= time %>" class="schedule-item-toggle collapsed" role="button"> 
+    <a data-toggle="collapse" href="#schedule-day-<%= day %>-room-<%= room %>-time-<%= slot %>" class="schedule-item-toggle collapsed" role="button"> 
         <div class="lecture-speaker-photo">
-            <%= tag :img, :src => "/images/speakers/" + speaker["tag"] + '-bw.png', :alt => speaker["name"], :class => "" %>
-            <div class="picture-overlay"></div>
+            <% unless session.nil? %>
+                <%= tag :img, :src => "/images/speakers/" + speaker["tag"] + '-bw.png', :alt => speaker["name"], :class => "" %>
+                <div class="picture-overlay"></div>
+            <% end %>
         </div>
         <div class="lecture-details">
-            <h5><%= session["title"] %></h5>
-            <h6><%= speaker["name"] %></h6>
+            <h5><%= session.nil? ? "&nbsp;" : session.title %></h5>
+            <h6><%= session.nil? ? "&nbsp;" : speaker.name %></h6>
         </div>
-        <span class="lnr lnr-chevron-down"></span>
-        <span class="lnr lnr-chevron-up"></span>
+
+        <% unless session.nil? %>
+            <span class="lnr lnr-chevron-down"></span>
+            <span class="lnr lnr-chevron-up"></span>
+        <% end %>
     </a>
 
-    <div id="schedule-day-<%= day %>-room-<%= room %>-time-<%= time %>" class="panel-collapse collapse schedule-item-body">
-        <% if session["id"] != nil %>
+    <% unless session.nil? %>
+        <div id="schedule-day-<%= day %>-room-<%= room %>-time-<%= slot %>" class="panel-collapse collapse schedule-item-body">
             <%= partial "sessions/" + session.id %>
-        <% end %>
-    </div>
+        </div>
+    <% end %>
 </div>

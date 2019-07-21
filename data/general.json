@@ -1,5 +1,10 @@
 {
     "cfp_link": "https://www.papercall.io/devconf-krakow-2019",
-    "tickets_link": "https://reg.devconf.pl/"
+    "tickets_link": "https://reg.devconf.pl/",
+    "conf_start_date": "2019-09-26",
+    "conf_days_count": 2,
+    "rooms_count": 4,
+    "slots_count": 7,
+    "slot_length": 50
 }
   

@@ -8,7 +8,7 @@ $(function() {
 
     if (locationHash != '') {
       $(window).scrollTop(0);
-
+      
       var speed = 850,
           offset = 100;
 
@@ -66,16 +66,21 @@ $(function() {
     $(this).ekkoLightbox();
   });
 
-  $(document).on("click", ".main-nav-link, a.btn-same-site", function(event) {
+  $(document).on("click", ".nav-link, .nav-btn", function(event) {
     event.preventDefault();
 
     var page = $(this).attr("href"),
         speed = 850,
-        offset = 100;
+        offset = 100,
+        $navLinkTarget = $(page.substring(1));
 
-    $("html, body").animate({
-      scrollTop: $(page).offset().top - offset
-    }, speed);
+    if ($navLinkTarget.length > 0) {
+      $("html, body").animate({
+        scrollTop: $navLinkTarget.offset().top - offset
+      }, speed);
+    } else {
+      location.href = page;
+    }
 
     return false;
   });

@@ -1,10 +1,10 @@
 <div class="card text-center">
-    <div class="picture-overlay"></div>
     <a href="/speakers/<%= speaker.tag %>" class="stretched-link">
         <%= tag :img, 
-                :src => '/images/speakers/' + speaker.tag + '-bw.png', 
+                :src => '/images/speakers/' + speaker.tag + '.png', 
                 :alt => speaker.name, 
-                :class => 'card-img-top' %>
+                :class => 'card-img-top speaker-headshot grayscale' %>
+        <div class="picture-overlay"></div>    
     </a>
     <div class="card-body">
         <%= speaker.name %>

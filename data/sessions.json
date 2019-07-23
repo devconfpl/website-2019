@@ -220,5 +220,11 @@
         "title": "Impostor Syndrome",
         "speaker_id": "anita-przybyl",
         "slot": 243
+    },
+    {
+        "id": "speeding-up-innovation",
+        "title": "Speeding Up Innovation",
+        "speaker_id": "arun-gupta",
+        "slot": 117
     }
 ]

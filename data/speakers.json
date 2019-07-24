@@ -362,17 +362,6 @@
         },
         "tag": "anita-przybyl",
         "description": "<p>Softs skills trainer, coach, psychologist. Used to be responsible for development of employees in big international corporation for several years. Currently a freelancer. Specializes in soft skills trainings, including: communication, team management, team building, assertiveness, conflict resolution, emotional intelligence, etc. Anita believes that being a qualified specialist is not enough, and highly developed social competences are an indispensable element of success of people and entire organizations.</p>"
-      },
-      {
-        "name": "Arun Gupta",
-        "surname": "Gupta",
-        "company": "AWS",
-        "social": {
-          "twitter": "arungupta",
-          "linkedin": "arunpgupta"
-        },
-        "tag": "arun-gupta",
-        "description": "<p>Arun Gupta is a Principal Technologist at Amazon Web Services. He is responsible for the Cloud Native Computing Foundation (CNCF) strategy within AWS, and participates at CNCF Board and technical meetings actively. He works with different teams at Amazon to help define their open source strategy. He has built and led developer communities for several years. He has extensive speaking experience in 45+ countries on myriad topics. A prolific writer, author of several books, an avid runner, a globe trotter, a Docker Captain, a Java Champion, a JUG leader, he is easily accessible at <a href='https://twitter.com/arungupta'>@arungupta</a>.</p>"
       }
     ]
 }

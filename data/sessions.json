@@ -81,7 +81,7 @@
         "id": "designing-accessible-apps",
         "title": "Designing Accessible Apps",
         "speaker_id": "dennie-declercq",
-        "slot": 134
+        "slot": 144
     },
     {
         "id": "quantun-computing",
@@ -142,6 +142,12 @@
         "title": "Designing and Implementing REST APIs For The Long Haul",
         "speaker_id": "spencer-schneidenbach",
         "slot": 216
+    },
+    {
+        "id": "net-core",
+        "title": "tbd",
+        "speaker_id": "mark-rendle",
+        "slot": 134
     },
     {
         "id": "futurology",

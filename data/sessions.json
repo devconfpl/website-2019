@@ -145,13 +145,13 @@
     },
     {
         "id": "net-core",
-        "title": "tbd",
+        "title": "High-Performance Networking with .NET Core 3.0",
         "speaker_id": "mark-rendle",
         "slot": 134
     },
     {
         "id": "futurology",
-        "title": "Futurology for Dummies - the Next 30 Years in Tech",
+        "title": "Futurology for Developers - The Next 30 Years in Tech",
         "speaker_id": "mark-rendle",
         "slot": 217
     },

@@ -27,7 +27,7 @@ page '/*.txt', layout: false
 #   },
 # )
 
-data.speakers.items.each do |s|
+data.speakers.each do |s|
   proxy "/speakers/#{s.tag}/index.html", "/speakers/template.html", :locals => { :speaker => s }, :ignore => true
 end
 

@@ -152,7 +152,7 @@ button.btn-primary, a.btn-primary {
     border-radius: 28.5px;
     background-color: $light-blue;
     border: 0;
-    font-weight: 500;
+    font-weight: 900;
     height: 45px;
     line-height: 45px;
     font-size: 20px;
@@ -378,6 +378,17 @@ section {
             padding-bottom: 0;
         }
     }
+
+    &#speakers,
+    &#scholarship {
+        &:first-of-type {
+            > .container-fluid {
+                margin-top: 122px;
+            }
+        } 
+    }
+
+      
 }
 
 #about {
@@ -454,6 +465,10 @@ section {
 }
 
 #speakers {
+    .section-info {
+        margin-top: -40px;
+    }
+
     .card-deck {
         align-items: center;
         justify-content: center;

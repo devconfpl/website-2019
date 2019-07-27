@@ -6,7 +6,7 @@
     slot_end_time = slot_start_time + data.general.slot_length * 60
 
     session = data.sessions.find { |s| s.slot == slot_id }
-    speaker = session.nil? ? nil : data.speakers.items.find { |s| s.tag == session.speaker_id }
+    speaker = session.nil? ? nil : data.speakers.find { |s| s.tag == session.speaker_id }
 %>
 
 <div class="panel schedule-item">

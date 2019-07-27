@@ -1,5 +1,5 @@
 <% 
-    speaker_names = workshop.speaker_tags.map { |st| data.speakers.items.find { |s| s.tag == st }.name }.join(", ") 
+    speaker_names = workshop.speaker_tags.map { |st| data.speakers.find { |s| s.tag == st }.name }.join(", ") 
 %>
 
 <section id="workshop-details">

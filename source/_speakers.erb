@@ -1,3 +1,11 @@
+<%
+    unless defined?(is_brief)
+        is_brief = true
+    end
+
+    speakers = is_brief ? data.speakers.sample(data.general.speakers_main_page_count) : data.speakers;
+%>
+
 <section id="speakers">
     <div class="container-fluid">
         <div class="section-header text-center">
@@ -6,13 +14,21 @@
                 Meet our <strong>professionals</strong>.
             <p class="mb-1">
             <p>
-                More speakers to be revealed in coming weeks.
+                More speakers still to be revealed.
             </p>
         </div>
         <div class="card-deck">
-            <% data.speakers.items.sort_by(&:surname).each do |s| %>
+            <% speakers.sort_by(&:surname).each do |s| %>
                 <%= partial(:speaker, :locals => { :speaker => s }) %>
             <% end %>
         </div>
+        <% if is_brief %> 
+            <div class="section-info text-center">
+                <p>
+                    
+                </p>
+                <a class="btn btn-primary mx-auto" href="/speakers" role="button">See All Speakers</a>
+            </div>
+        <% end %>
     </div>
 </section>

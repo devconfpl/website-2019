@@ -65,6 +65,12 @@
         "speaker_id": "spencer-schneidenbach",
         "slot": 116
     },
+    {   
+        "id": "the-art-of-code",
+        "title": "The Art of Code",
+        "speaker_id": "dylan-beattie",
+        "slot": 117
+    },
     {
         "id": "kaizen-driven-development",
         "title": "Kaizen-Driven Development: Carve Your Own Path",
@@ -99,7 +105,7 @@
         "id": "talk-to-me-nicely",
         "title": "Talk to Me Nicely - How to Communicate Your Ideas and Speed Up Your Career",
         "speaker_id": "piotr-stawirej",
-        "slot": 142
+        "slot": 244
     },
     {
         "id": "when-human-life-depends-on-software",
@@ -156,8 +162,8 @@
         "slot": 217
     },
     {
-        "id": "session-tbd",
-        "title": "tbd",
+        "id": "the-cost-of-code",
+        "title": "The Cost of Code",
         "speaker_id": "dylan-beattie",
         "slot": 222
     },

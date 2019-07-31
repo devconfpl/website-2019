@@ -16,11 +16,7 @@
     <a data-toggle="collapse" href="#schedule-day-<%= day %>-room-<%= room %>-time-<%= slot %>" class="schedule-item-toggle collapsed" role="button"> 
         <div class="lecture-speaker-photo">
             <% unless session.nil? %>
-                <%= tag :img, 
-                        :src => "/images/speakers/" + speaker["tag"] + '.png', 
-                        :alt => speaker["name"], 
-                        :class => "speaker-headshot grayscale" %>
-                <div class="picture-overlay"></div>
+                <%= partial "partials/person_photo", :locals => { :person => speaker } %>
             <% end %>
         </div>
         <div class="lecture-details">

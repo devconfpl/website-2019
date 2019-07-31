@@ -19,7 +19,7 @@
         </div>
         <div class="card-deck">
             <% speakers.sort_by(&:surname).each do |s| %>
-                <%= partial(:speaker, :locals => { :speaker => s }) %>
+                <%= partial(:person, :locals => { :person => s }) %>
             <% end %>
         </div>
         <% if is_brief %> 

@@ -380,7 +380,8 @@ section {
     }
 
     &#speakers,
-    &#scholarship {
+    &#scholarship,
+    &#program-committee {
         &:first-of-type {
             > .container-fluid {
                 margin-top: 122px;
@@ -464,7 +465,8 @@ section {
     }
 }
 
-#speakers {
+#speakers,
+#program-committee {
     .section-info {
         margin-top: -40px;
     }
@@ -479,7 +481,7 @@ section {
             margin-bottom: 65px;
 
             &:hover {
-                .speaker-headshot {
+                .person-headshot {
                     filter: none !important;
                 }
             }
@@ -491,6 +493,7 @@ section {
                 font-style: normal;
                 letter-spacing: 0;
                 color: $gray;
+                z-index: 10;
             }
 
             .card-footer {
@@ -498,6 +501,7 @@ section {
                 background-color: $white;
                 padding: 3px 0 10px;
                 font-size: 18px;
+                z-index: 10;
 
                 ul, li {
                     margin: 0;
@@ -1164,7 +1168,7 @@ section {
     }
 }
 
-#speaker-details, 
+#person-details,
 #workshop-details {
     .container-fluid {
         margin-top: 90px;
@@ -1200,7 +1204,8 @@ section {
             }
         }
 
-        .speaker-photo {
+        .speaker-photo,
+        .person-photo {
             > div {
                 position: absolute;
                 top: 18px;
@@ -1299,8 +1304,8 @@ section {
             }
         }
 
-        .speaker-activities {
-            .speaker-activity {
+        .person-activities {
+            .person-activity {
                 .activity-time {
                     padding: 25px 0;
                     color: $gray;
@@ -1349,8 +1354,8 @@ section {
     }
 }
 
-#speaker-details {
-    .speaker-photo {
+#person-details {
+    .person-photo {
         background-color: $navy-blue;   
     }
 }
@@ -1388,7 +1393,7 @@ section {
     }
 }
 
-.speaker-headshot {
+.person-headshot {
     &.grayscale {
         filter: grayscale(100%);
     }

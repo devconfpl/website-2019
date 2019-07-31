@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Rafał Legiędź",
+        "surname": "Legiędź",
+        "company": "Solidbrain",
+        "social": {
+            "twitter": "rafek",
+            "linkedin": "rafallegiedz"
+        },
+        "tag": "rafal-legiedz",
+        "description": "<p>Rafał works as a software engineer for Solidbrain. Being in the industry since 2007 he develops his passion for the software at every possible moment. He believes that being pragmatic in our field is very helpful and proves that by switching technologies he uses whenever there is a need or an opportunity to learn new concepts. Started with .NET back-end solutions, he quickly became a web guy and then he got his head around different kind of mobile technologies and VR/AR. Also a Microsoft MVP in Windows Development.</p><p>As his passion evolved, he got obsessed with knowledge sharing and community activities. That resulted in co-founding a conference and a series of other actions like giving talks or conducting workshops.</p>"
+    },
+    {
+        "name": "Jakub Gutkowski",
+        "surname": "Gutkowski",
+        "company": "",
+        "social": {
+            "twitter": "gutek",
+            "linkedin": "jakubg"
+        },
+        "tag": "jakub-gutkowski",
+        "description": "<p>Dad, husband, developer, geek. Founder of devWarsztaty – free workshops, for anyone who is willing to learn and practice software craftsmanship. Creator of first polish .NET Blogs agregator – .NET Blogs PL. Loves to play with novelties, learn new languages and libraries, avid conference attender, passionate about meeting new people, always willing to help.</p><p>Microsoft MVP.</p><p>Truly believes, that what he does, changes the world and helps others.</p>"
+    },
+    {
+        "name": "Piotr Stapp",
+        "surname": "Stapp",
+        "company": "FinAi",
+        "social": {
+            "twitter": "ptrstpp950",
+            "linkedin": "piotrstapp"
+        },
+        "tag": "piotr-stapp",
+        "description": "<p>Don't Stapp me now ;)</p>"
+    }
+]

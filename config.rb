@@ -28,7 +28,11 @@ page '/*.txt', layout: false
 # )
 
 data.speakers.each do |s|
-  proxy "/speakers/#{s.tag}/index.html", "/speakers/template.html", :locals => { :speaker => s }, :ignore => true
+  proxy "/speakers/#{s.tag}/index.html", "/person_template.html", :locals => { :person => s }, :ignore => true
+end
+
+data.program_committee.each do |pc|
+  proxy "/program-committee/#{pc.tag}/index.html", "/person_template.html", :locals => { :person => pc }, :ignore => true
 end
 
 data.workshops.items.each do |w|

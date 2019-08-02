@@ -1,3 +1,7 @@
+<%
+    tiers = ["Platinum", "Gold", "Silver", "Virtual"]
+%>
+
 <section id="sponsors">
     <div class="container-fluid">
         <div class="section-header text-center">
@@ -14,6 +18,24 @@
                 
             </p>
             <a class="btn btn-primary mx-auto" href="mailto:contact@devconf.pl" role="button">Become a Sponsor!</a>
+        </div>
+
+        <div class="row justify-content-center flex-column mt-5">
+            <% tiers.each do |t| %>
+                <div class="sponsor-group">
+                    <h4><%= t %></h4>
+                    <% data.sponsors.select { |s| s.tier.casecmp(t) == 0 }.each do |s| %>
+                        <div class="sponsor sponsor-<%= s.tier %>">
+                            <a href="<%= s.link %>">
+                                <%= tag :img, 
+                                    :src => '/images/sponsors/' + s.id + '.png', 
+                                    :alt => s.name 
+                                %>
+                            </a>
+                        </div>
+                    <% end %>
+                </div>
+            <% end %>
         </div>
     </div>
 </section>

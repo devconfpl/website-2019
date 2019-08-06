@@ -31,5 +31,38 @@
         },
         "tag": "piotr-stapp",
         "description": "<p>Don't Stapp me now ;)</p>"
+    },
+    {
+        "name": "Kamil Kubacki",
+        "surname": "Kubacki",
+        "company": "Appliscale ",
+        "social": {
+            "twitter": "kamilkubacki",
+            "linkedin": "kamilkubacki"
+        },
+        "tag": "kamil-kubacki",
+        "description": "<p>Software engineer for 7 years with experience in Java, Erlang and cloud computing (AWS). In addition to technical expertise, heavily broadens his knowledge in product building. Currently, Kamil is part of <a href='https://appliscale.io/'>Appliscale</a> where he focuses on development and technical leadership in AdTech solutions (Real-Time Bidding).</p>"
+    },
+    {
+        "name": "Ola Kunysz",
+        "surname": "Kunysz",
+        "company": "",
+        "social": {
+            "twitter": "OlaQnysz",
+            "linkedin": "akunysz"
+        },
+        "tag": "ola-kunysz",
+        "description": "<p>Ola Kunysz is a software engineer with 12 years of experience, going through all it's stages, from business analysis to backend programming. Recently in the role of full-stack developer in e-commerce project. Her biggest interest is solving real-life problems and writing code that matters. For 2 years she organised meetups and workshops of Geek Girls Carrots in Wrocław. She enjoys meeting people and working on interesting projects, so you can spot her on hackathons and conferences. When it’s time to relax, she’s offline [with dog(s), playing board games, in the mountains]*</p>"
+    },
+    {
+        "name": "Marcin Biegała",
+        "surname": "Biegała",
+        "company": "",
+        "social": {
+            "twitter": "biegal",
+            "linkedin": "marcinbiegala"
+        },
+        "tag": "marcin-biegala",
+        "description": "<p>Dev, motorcyclist, dreamer and coffee lover. Golang fan and aspiring speaker.</p><p>He is a passionate programmer, who over the years had pleasure to work in companies of all sizes.</p><p>After work, he tries to shape his thoughts into word on blog or help meetups and conferences.</p>"
     }
 ]

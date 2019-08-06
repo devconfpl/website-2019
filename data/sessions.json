@@ -232,5 +232,11 @@
         "title": "Impostor Syndrome",
         "speaker_id": "anita-przybyl",
         "slot": 243
+    },
+    {
+        "id": "7-deadlier-sins-of-craftsmanship",
+        "title": "7 Deadlier Sins of Craftsmanship",
+        "speaker_id": "tomasz-dubikowski",
+        "slot": 142
     }
 ]

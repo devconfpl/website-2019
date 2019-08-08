@@ -64,5 +64,16 @@
         },
         "tag": "marcin-biegala",
         "description": "<p>Dev, motorcyclist, dreamer and coffee lover. Golang fan and aspiring speaker.</p><p>He is a passionate programmer, who over the years had pleasure to work in companies of all sizes.</p><p>After work, he tries to shape his thoughts into word on blog or help meetups and conferences.</p>"
+    },
+    {
+        "name": "Mathew McLoughlin",
+        "surname": "McLoughlin",
+        "company": "",
+        "social": {
+            "twitter": "mat_mcloughlin",
+            "linkedin": "matmcloughlin"
+        },
+        "tag": "mathew-mcloughlin",
+        "description": "<p></p>"
     }
 ]

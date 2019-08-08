@@ -1330,9 +1330,11 @@ section {
 }
 
 #sponsors,
-#community-partners {
+#community-partners,
+#scholarship-partners {
     .sponsor-group,
-    .community-partner-group {
+    .community-partner-group,
+    .scholarship-partner-group {
         display: flex;
         justify-content: center; 
         flex-flow: row wrap;
@@ -1353,7 +1355,8 @@ section {
         }
 
         .sponsor,
-        .community-partner {
+        .community-partner,
+        .scholarship-partner {
             padding: 10px;
             min-width: 200px;
             box-sizing: content-box;
@@ -1370,6 +1373,27 @@ section {
             img {
                 width: 100px;
             };
+        }
+
+        .scholarship-partner {
+            min-width: 200px;
+
+            img {
+                width: 200px;
+            }
+        }
+    }
+
+    .community-partner-group,
+    .scholarship-partner-group {
+        margin-top: 0;
+    }
+}
+
+#scholarship-partners {
+    .container-fluid {
+        .section-header {
+            margin-bottom: 10px;
         }
     }
 }

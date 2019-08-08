@@ -23,5 +23,25 @@
         "id": "rg-dev",
         "name": "rg-dev",
         "link": "https://www.meetup.com/rg-dev/"
+    },
+    {
+        "id": "4developers-wroclaw",
+        "name": "4developers Wrocław",
+        "link": "https://4developers.org.pl/wroclaw/"
+    },
+    {
+        "id": "4developers-katowice",
+        "name": "4developers Katowice",
+        "link": "https://4developers.org.pl/katowice/"
+    },
+    {
+        "id": "4developers-krakow",
+        "name": "4developers Kraków",
+        "link": "https://4developers.org.pl/krakow/"
+    },
+    {
+        "id": "4developers-poznan",
+        "name": "4developers Poznań",
+        "link": "https://4developers.org.pl/poznan-2019/"
     }
 ]

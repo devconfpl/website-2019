@@ -18,5 +18,10 @@
         "id": "devwarsztaty",
         "name": "devWarsztaty",
         "link": "http://devwarsztaty.pl/"
+    },
+    {
+        "id": "rg-dev",
+        "name": "rg-dev",
+        "link": "https://www.meetup.com/rg-dev/"
     }
 ]

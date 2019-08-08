@@ -44,6 +44,10 @@ end
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
+  def utm_link url 
+    url + "?utm_source=devconf"
+  end
+
   def twitter_link handle
     'https://twitter.com/' + handle
   end

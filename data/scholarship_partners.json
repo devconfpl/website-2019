@@ -3,5 +3,10 @@
         "id": "microsoft",
         "name": "Microsoft",
         "link": "https://www.microsoft.com/"
+    },
+    {
+        "id": "codeclusive",
+        "name": "Codeclusive",
+        "link": "https://codeclusive.io/"
     }
 ]

@@ -10,11 +10,6 @@
         "link": "https://www.meetup.com/KGD-NET/"
     },
     {
-        "id": "wroc-net",
-        "name": "WROC.NET",
-        "link": "https://wrocnet.github.io/"
-    },
-    {
         "id": "devwarsztaty",
         "name": "devWarsztaty",
         "link": "http://devwarsztaty.pl/"
@@ -43,5 +38,10 @@
         "id": "4developers-poznan",
         "name": "4developers Poznań",
         "link": "https://4developers.org.pl/poznan-2019/"
+    },
+    {
+        "id": "wroc-net",
+        "name": "WROC.NET",
+        "link": "https://wrocnet.github.io/"
     }
 ]

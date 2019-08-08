@@ -13,5 +13,10 @@
         "id": "wroc-net",
         "name": "WROC.NET",
         "link": "https://wrocnet.github.io/"
+    },
+    {
+        "id": "devwarsztaty",
+        "name": "devWarsztaty",
+        "link": "http://devwarsztaty.pl/"
     }
 ]

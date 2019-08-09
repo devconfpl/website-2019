@@ -43,5 +43,15 @@
         "id": "wroc-net",
         "name": "WROC.NET",
         "link": "https://wrocnet.github.io/"
+    },
+    {
+        "id": "ostra-pila",
+        "name": "Ostra Piła",
+        "link": "https://ostrapila.pl/"
+    },
+    {
+        "id": "women-in-technology",
+        "name": "Women in Technology",
+        "link": "https://womenintechnology.pl/"
     }
 ]

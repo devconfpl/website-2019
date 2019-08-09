@@ -11,7 +11,7 @@
             <div class="community-partner-group">
                 <% data.community_partners.each do |p| %>
                     <div class="community-partner">
-                        <a href="<%= p.link %>">
+                        <a href="<%= utm_link p.link %>">
                             <%= tag :img, 
                                 :src => '/images/partners/' + p.id + '.png', 
                                 :alt => p.name 

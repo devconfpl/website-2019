@@ -75,5 +75,16 @@
         },
         "tag": "mathew-mcloughlin",
         "description": "<p></p>"
+    },
+    {
+        "name": "Michał Śliwoń",
+        "surname": "Śliwon",
+        "company": "",
+        "social": {
+            "twitter": "mihcall",
+            "linkedin": "michal-sliwon"
+        },
+        "tag": "michal-sliwon",
+        "description": "<p>Software developer, conference organiser and co-founder at DevConf and CEO and co-owner at Codeclusive.</p><p>Has a passion to software and people which is a perfect combination when organising a conference for software developers.</p><p>Really hopes you'll love DevConf for the knowledge, inspiration and fun.</p>"
     }
 ]

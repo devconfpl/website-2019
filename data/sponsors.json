@@ -4,5 +4,11 @@
         "name": "Applicsale",
         "link": "https://appliscale.io/",
         "tier": "silver"
+    },
+    {
+        "id": "relativity",
+        "name": "Relativity",
+        "link": "https://www.relativity.com/",
+        "tier": "gold"
     }
 ]

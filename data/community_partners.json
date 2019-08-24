@@ -53,5 +53,10 @@
         "id": "women-in-technology",
         "name": "Women in Technology",
         "link": "https://womenintechnology.pl/"
+    },
+    {
+        "id": "programmer-girl",
+        "name": "Programmer Girl",
+        "link": "https://programmer-girl.com/"
     }
 ]

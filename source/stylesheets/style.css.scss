@@ -1342,6 +1342,7 @@ section {
         width: 100%;
         border-bottom: 0.6px solid rgba(87, 87, 87, 0.5);
         margin-top: 15px;
+        padding-bottom: 10px;
 
         @media screen and (min-width: 576px) {
             width: 500px;
@@ -1365,6 +1366,18 @@ section {
             img {
                 width: 200px;
             }
+
+            &.narrow {
+                min-width: 100px;
+
+                img {
+                    width: 100px;
+                }
+            }
+        }
+
+        .scholarship-partner {
+            padding: 0 10px;
         }
 
         .community-partner {

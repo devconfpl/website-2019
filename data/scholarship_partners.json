@@ -8,5 +8,11 @@
         "id": "codeclusive",
         "name": "Codeclusive",
         "link": "https://codeclusive.io/"
+    },
+    {
+        "id": "devwarsztaty",
+        "name": "devWarsztaty",
+        "link": "http://devwarsztaty.pl/",
+        "narrow": true
     }
 ]

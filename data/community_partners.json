@@ -45,9 +45,9 @@
         "link": "https://wrocnet.github.io/"
     },
     {
-        "id": "ostra-pila",
-        "name": "Ostra Piła",
-        "link": "https://ostrapila.pl/"
+        "id": "reactive-conf",
+        "name": "ReactiveConf",
+        "link": "https://reactiveconf.com/"
     },
     {
         "id": "women-in-technology",
@@ -60,8 +60,8 @@
         "link": "https://programmer-girl.com/"
     },
     {
-        "id": "reactive-conf",
-        "name": "ReactiveConf",
-        "link": "https://reactiveconf.com/"
+        "id": "ostra-pila",
+        "name": "Ostra Piła",
+        "link": "https://ostrapila.pl/"
     }
 ]

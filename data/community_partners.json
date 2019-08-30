@@ -58,5 +58,10 @@
         "id": "programmer-girl",
         "name": "Programmer Girl",
         "link": "https://programmer-girl.com/"
+    },
+    {
+        "id": "reactive-conf",
+        "name": "ReactiveConf",
+        "link": "https://reactiveconf.com/"
     }
 ]

@@ -1331,9 +1331,11 @@ section {
 
 #sponsors,
 #community-partners,
+#media-partners,
 #scholarship-partners {
     .sponsor-group,
     .community-partner-group,
+    .media-partner-group,
     .scholarship-partner-group {
         display: flex;
         justify-content: center; 
@@ -1357,6 +1359,7 @@ section {
 
         .sponsor,
         .community-partner,
+        .media-partner,
         .scholarship-partner {
             padding: 10px;
             min-width: 200px;
@@ -1376,7 +1379,8 @@ section {
             }
         }
 
-        .scholarship-partner {
+        .scholarship-partner,
+        .media-partner {
             padding: 0 10px;
         }
 
@@ -1388,7 +1392,8 @@ section {
             };
         }
 
-        .scholarship-partner {
+        .scholarship-partner,
+        .media-partner {
             min-width: 200px;
 
             img {
@@ -1398,8 +1403,13 @@ section {
     }
 
     .community-partner-group,
+    .media-partner-group,
     .scholarship-partner-group {
         margin-top: 0;
+    }
+
+    .media-partner-group {
+        padding-bottom: 20px;
     }
 }
 

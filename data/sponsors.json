@@ -10,5 +10,17 @@
         "name": "Relativity",
         "link": "https://www.relativity.com/",
         "tier": "gold"
+    },
+    {
+        "id": "abb",
+        "name": "ABB",
+        "link": "https://new.abb.com/pl",
+        "tier": "gold"
+    },
+    {
+        "id": "kursysql",
+        "name": "Kursy SQL",
+        "link": "https://www.kursysql.pl/",
+        "tier": "virtual"
     }
 ]

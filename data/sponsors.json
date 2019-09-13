@@ -22,5 +22,11 @@
         "name": "Kursy SQL",
         "link": "https://www.kursysql.pl/",
         "tier": "virtual"
+    },
+    {
+        "id": "sperasoft",
+        "name": "Sperasoft",
+        "link": "https://sperasoft.com/",
+        "tier": "silver"
     }
 ]

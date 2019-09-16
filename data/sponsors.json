@@ -28,5 +28,11 @@
         "name": "Sperasoft",
         "link": "https://sperasoft.com/",
         "tier": "silver"
+    },
+    {
+        "id": "grand-parade",
+        "name": "Grand Parade part of William Hill",
+        "link": "https://grandparade.co.uk/",
+        "tier": "gold"
     }
 ]

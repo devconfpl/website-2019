@@ -1388,15 +1388,22 @@ section {
             padding: 0 10px;
         }
 
-        .community-partner {
-            min-width: 100px;
+        .community-partner,
+        .scholarship-partner {
+            min-width: 150px;
+            text-align: center;
 
             img {
-                width: 100px;
+                width: 150px;
             };
+
+            &.narrow {
+                img {
+                    width: 100px;
+                }
+            }
         }
 
-        .scholarship-partner,
         .media-partner {
             min-width: 200px;
 

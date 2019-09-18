@@ -63,5 +63,10 @@
         "id": "ostra-pila",
         "name": "Ostra Piła",
         "link": "https://ostrapila.pl/"
+    },
+    {
+        "id": "motorola-software-developers-meetup",
+        "name": "Motorola Software Developers Meetup",
+        "link": "https://www.meetup.com/Motorola-Software-Developers-Meetup/"
     }
 ]

@@ -1393,6 +1393,10 @@ section {
             min-width: 150px;
             text-align: center;
 
+            &.narrow {
+                min-width: 150px;
+            }
+
             img {
                 width: 150px;
             };

@@ -34,5 +34,11 @@
         "name": "Grand Parade part of William Hill",
         "link": "https://grandparade.co.uk/",
         "tier": "gold"
+    },
+    {
+        "id": "ust-global",
+        "name": "UST Global",
+        "link": "https://ust-global.com/",
+        "tier": "silver"
     }
 ]
